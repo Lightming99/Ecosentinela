@@ -1,0 +1,987 @@
+2025-08-02 16:00:03,989 - __main__ - INFO - [app.py:138] - Initializing Neo4j service...
+2025-08-02 16:00:06,046 - neo4j_service - INFO - [neo4j_service.py:28] - Neo4j connection verified successfully
+2025-08-02 16:00:06,080 - neo4j_service - INFO - [neo4j_service.py:57] - Neo4j constraints and indexes created/verified
+2025-08-02 16:00:06,080 - Flask_api - INFO - [Flask_api.py:43] - Neo4j service initialized successfully
+2025-08-02 16:00:06,080 - __main__ - INFO - [app.py:140] - Neo4j service initialized successfully
+2025-08-02 16:00:06,080 - __main__ - INFO - [app.py:152] - Starting Flask server on 0.0.0.0:8000
+2025-08-02 16:00:06,105 - werkzeug - WARNING - [_internal.py:97] -  * Debugger is active!
+2025-08-02 16:00:06,107 - werkzeug - INFO - [_internal.py:97] -  * Debugger PIN: 817-675-111
+2025-08-02 16:00:48,001 - Flask_api - INFO - [Flask_api.py:331] - Neo4j service connection closed
+2025-08-02 16:00:48,002 - __main__ - INFO - [app.py:169] - Application cleanup completed
+2025-08-02 16:00:48,002 - Flask_api - INFO - [Flask_api.py:331] - Neo4j service connection closed
+2025-08-02 16:00:55,172 - __main__ - INFO - [app.py:138] - Initializing Neo4j service...
+2025-08-02 16:00:57,216 - neo4j_service - INFO - [neo4j_service.py:28] - Neo4j connection verified successfully
+2025-08-02 16:00:57,243 - neo4j_service - INFO - [neo4j_service.py:57] - Neo4j constraints and indexes created/verified
+2025-08-02 16:00:57,243 - Flask_api - INFO - [Flask_api.py:43] - Neo4j service initialized successfully
+2025-08-02 16:00:57,244 - __main__ - INFO - [app.py:140] - Neo4j service initialized successfully
+2025-08-02 16:00:57,244 - __main__ - INFO - [app.py:152] - Starting Flask server on 0.0.0.0:8000
+2025-08-02 16:00:57,276 - werkzeug - INFO - [_internal.py:97] - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8000
+ * Running on http://10.160.0.2:8000
+2025-08-02 16:00:57,276 - werkzeug - INFO - [_internal.py:97] - [33mPress CTRL+C to quit[0m
+2025-08-02 16:00:57,278 - werkzeug - INFO - [_internal.py:97] -  * Restarting with stat
+2025-08-02 16:00:57,845 - __main__ - INFO - [app.py:138] - Initializing Neo4j service...
+2025-08-02 16:00:59,925 - neo4j_service - INFO - [neo4j_service.py:28] - Neo4j connection verified successfully
+2025-08-02 16:00:59,953 - neo4j_service - INFO - [neo4j_service.py:57] - Neo4j constraints and indexes created/verified
+2025-08-02 16:00:59,953 - Flask_api - INFO - [Flask_api.py:43] - Neo4j service initialized successfully
+2025-08-02 16:00:59,954 - __main__ - INFO - [app.py:140] - Neo4j service initialized successfully
+2025-08-02 16:00:59,954 - __main__ - INFO - [app.py:152] - Starting Flask server on 0.0.0.0:8000
+2025-08-02 16:00:59,973 - werkzeug - WARNING - [_internal.py:97] -  * Debugger is active!
+2025-08-02 16:00:59,977 - werkzeug - INFO - [_internal.py:97] -  * Debugger PIN: 817-675-111
+2025-08-02 16:33:59,295 - werkzeug - INFO - [_internal.py:97] - 127.0.0.1 - - [02/Aug/2025 16:33:59] "OPTIONS /api/feedback HTTP/1.1" 200 -
+2025-08-02 16:33:59,550 - Flask_api - INFO - [Flask_api.py:117] - ================================================================================
+2025-08-02 16:33:59,976 - Flask_api - INFO - [Flask_api.py:124] - ================================================================================
+2025-08-02 16:34:00,072 - Flask_api - INFO - [Flask_api.py:130] -    Host: localhost:8000
+2025-08-02 16:34:00,074 - Flask_api - INFO - [Flask_api.py:130] -    Connection: keep-alive
+2025-08-02 16:34:00,078 - Flask_api - INFO - [Flask_api.py:130] -    Content-Length: 373
+2025-08-02 16:34:00,083 - Flask_api - INFO - [Flask_api.py:130] -    Sec-Ch-Ua-Platform: "Windows"
+2025-08-02 16:34:00,086 - Flask_api - INFO - [Flask_api.py:130] -    User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Edg/138.0.0.0
+2025-08-02 16:34:00,087 - Flask_api - INFO - [Flask_api.py:130] -    Sec-Ch-Ua: "Not)A;Brand";v="8", "Chromium";v="138", "Microsoft Edge";v="138"
+2025-08-02 16:34:00,088 - Flask_api - INFO - [Flask_api.py:130] -    Content-Type: application/json; charset=utf-8
+2025-08-02 16:34:00,089 - Flask_api - INFO - [Flask_api.py:130] -    Sec-Ch-Ua-Mobile: ?0
+2025-08-02 16:34:00,089 - Flask_api - INFO - [Flask_api.py:130] -    Accept: */*
+2025-08-02 16:34:00,090 - Flask_api - INFO - [Flask_api.py:130] -    Origin: http://localhost:65193
+2025-08-02 16:34:00,092 - Flask_api - INFO - [Flask_api.py:130] -    Sec-Fetch-Site: same-site
+2025-08-02 16:34:00,092 - Flask_api - INFO - [Flask_api.py:130] -    Sec-Fetch-Mode: cors
+2025-08-02 16:34:00,094 - Flask_api - INFO - [Flask_api.py:130] -    Sec-Fetch-Dest: empty
+2025-08-02 16:34:00,094 - Flask_api - INFO - [Flask_api.py:130] -    Referer: http://localhost:65193/
+2025-08-02 16:34:00,129 - Flask_api - INFO - [Flask_api.py:130] -    Accept-Encoding: gzip, deflate, br, zstd
+2025-08-02 16:34:00,130 - Flask_api - INFO - [Flask_api.py:130] -    Accept-Language: en-US,en;q=0.9
+2025-08-02 16:34:00,153 - Flask_api - INFO - [Flask_api.py:139] -    {'feedback_id': '1754152438969_0', 'feedback_type': 'negative', 'comment': 'Is my data being gone to the neo4j?', 'categories': ['Other'], 'timestamp': '2025-08-02T16:33:58.969Z', 'user_id': 'anonymous_user', 'conversation_id': 'unknown_conversation', 'user_query': 'No query provided', 'message_id': '1754152438969', 'detected_intent': 'unknown', 'confidence_score': 0, 'extracted_entities': []}
+2025-08-02 16:34:00,197 - Flask_api - ERROR - [Flask_api.py:157] -    message_text: ['Missing data for required field.']
+2025-08-02 16:34:00,198 - Flask_api - ERROR - [Flask_api.py:157] -    user_query: ['Unknown field.']
+2025-08-02 16:34:00,198 - Flask_api - ERROR - [Flask_api.py:157] -    extracted_entities: ['Unknown field.']
+2025-08-02 16:34:00,199 - Flask_api - ERROR - [Flask_api.py:157] -    confidence_score: ['Unknown field.']
+2025-08-02 16:34:00,199 - Flask_api - ERROR - [Flask_api.py:157] -    detected_intent: ['Unknown field.']
+2025-08-02 16:34:00,201 - werkzeug - INFO - [_internal.py:97] - 127.0.0.1 - - [02/Aug/2025 16:34:00] "[31m[1mPOST /api/feedback HTTP/1.1[0m" 400 -
+2025-08-02 16:53:16,284 - werkzeug - INFO - [_internal.py:97] - 127.0.0.1 - - [02/Aug/2025 16:53:16] "OPTIONS /api/feedback HTTP/1.1" 200 -
+2025-08-02 16:53:16,541 - Flask_api - INFO - [Flask_api.py:117] - ================================================================================
+2025-08-02 16:53:16,598 - Flask_api - INFO - [Flask_api.py:124] - ================================================================================
+2025-08-02 16:53:16,605 - Flask_api - INFO - [Flask_api.py:130] -    Host: localhost:8000
+2025-08-02 16:53:16,605 - Flask_api - INFO - [Flask_api.py:130] -    Connection: keep-alive
+2025-08-02 16:53:16,606 - Flask_api - INFO - [Flask_api.py:130] -    Content-Length: 456
+2025-08-02 16:53:16,606 - Flask_api - INFO - [Flask_api.py:130] -    Sec-Ch-Ua-Platform: "Windows"
+2025-08-02 16:53:16,606 - Flask_api - INFO - [Flask_api.py:130] -    User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Edg/138.0.0.0
+2025-08-02 16:53:16,606 - Flask_api - INFO - [Flask_api.py:130] -    Sec-Ch-Ua: "Not)A;Brand";v="8", "Chromium";v="138", "Microsoft Edge";v="138"
+2025-08-02 16:53:16,607 - Flask_api - INFO - [Flask_api.py:130] -    Content-Type: application/json; charset=utf-8
+2025-08-02 16:53:16,607 - Flask_api - INFO - [Flask_api.py:130] -    Sec-Ch-Ua-Mobile: ?0
+2025-08-02 16:53:16,607 - Flask_api - INFO - [Flask_api.py:130] -    Accept: */*
+2025-08-02 16:53:16,607 - Flask_api - INFO - [Flask_api.py:130] -    Origin: http://localhost:65404
+2025-08-02 16:53:16,608 - Flask_api - INFO - [Flask_api.py:130] -    Sec-Fetch-Site: same-site
+2025-08-02 16:53:16,608 - Flask_api - INFO - [Flask_api.py:130] -    Sec-Fetch-Mode: cors
+2025-08-02 16:53:16,608 - Flask_api - INFO - [Flask_api.py:130] -    Sec-Fetch-Dest: empty
+2025-08-02 16:53:16,609 - Flask_api - INFO - [Flask_api.py:130] -    Referer: http://localhost:65404/
+2025-08-02 16:53:16,609 - Flask_api - INFO - [Flask_api.py:130] -    Accept-Encoding: gzip, deflate, br, zstd
+2025-08-02 16:53:16,609 - Flask_api - INFO - [Flask_api.py:130] -    Accept-Language: en-US,en;q=0.9
+2025-08-02 16:53:16,668 - Flask_api - INFO - [Flask_api.py:146] -    Feedback ID: 1754153595975_0
+2025-08-02 16:53:16,668 - Flask_api - INFO - [Flask_api.py:147] -    User ID: current_user_id
+2025-08-02 16:53:16,669 - Flask_api - INFO - [Flask_api.py:148] -    Feedback Type: positive
+2025-08-02 16:53:16,674 - Flask_api - INFO - [Flask_api.py:150] -    Comment: 
+2025-08-02 16:53:16,675 - Flask_api - INFO - [Flask_api.py:151] -    Categories: []
+2025-08-02 16:53:16,675 - Flask_api - INFO - [Flask_api.py:152] -    Intent: intent_from_rasa
+2025-08-02 16:53:16,675 - Flask_api - INFO - [Flask_api.py:153] -    Confidence: 0.85
+2025-08-02 16:53:16,732 - Flask_api - INFO - [Flask_api.py:177] -    Database: reviews
+2025-08-02 16:53:16,732 - Flask_api - INFO - [Flask_api.py:178] -    URI: bolt://localhost:7687
+2025-08-02 16:53:16,739 - neo4j_service - INFO - [neo4j_service.py:71] -    Target Database: reviews
+2025-08-02 16:53:16,740 - neo4j_service - INFO - [neo4j_service.py:72] -    Feedback ID: 1754153595975_0
+2025-08-02 16:53:16,743 - neo4j_service - INFO - [neo4j_service.py:73] -    User ID: current_user_id
+2025-08-02 16:53:17,047 - neo4j_service - INFO - [neo4j_service.py:81] -    Database: reviews
+2025-08-02 16:53:17,048 - neo4j_service - INFO - [neo4j_service.py:82] -    Record Created: 1754153595975_0
+2025-08-02 16:53:17,058 - Flask_api - INFO - [Flask_api.py:184] -    Feedback ID: 1754153595975_0
+2025-08-02 16:53:17,059 - Flask_api - INFO - [Flask_api.py:185] -    Stored in database: reviews
+2025-08-02 16:53:17,059 - Flask_api - INFO - [Flask_api.py:186] -    User: current_user_id
+2025-08-02 16:53:17,060 - Flask_api - INFO - [Flask_api.py:187] -    Type: positive
+2025-08-02 16:53:17,065 - Flask_api - INFO - [Flask_api.py:189] - ================================================================================
+2025-08-02 16:53:17,066 - werkzeug - INFO - [_internal.py:97] - 127.0.0.1 - - [02/Aug/2025 16:53:17] "POST /api/feedback HTTP/1.1" 200 -
+2025-08-02 16:58:49,595 - werkzeug - INFO - [_internal.py:97] - 127.0.0.1 - - [02/Aug/2025 16:58:49] "OPTIONS /api/feedback HTTP/1.1" 200 -
+2025-08-02 16:58:49,824 - Flask_api - INFO - [Flask_api.py:117] - ================================================================================
+2025-08-02 16:58:49,890 - Flask_api - INFO - [Flask_api.py:124] - ================================================================================
+2025-08-02 16:58:49,933 - Flask_api - INFO - [Flask_api.py:130] -    Host: localhost:8000
+2025-08-02 16:58:49,934 - Flask_api - INFO - [Flask_api.py:130] -    Connection: keep-alive
+2025-08-02 16:58:49,934 - Flask_api - INFO - [Flask_api.py:130] -    Content-Length: 466
+2025-08-02 16:58:49,934 - Flask_api - INFO - [Flask_api.py:130] -    Sec-Ch-Ua-Platform: "Windows"
+2025-08-02 16:58:49,935 - Flask_api - INFO - [Flask_api.py:130] -    User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Edg/138.0.0.0
+2025-08-02 16:58:49,935 - Flask_api - INFO - [Flask_api.py:130] -    Sec-Ch-Ua: "Not)A;Brand";v="8", "Chromium";v="138", "Microsoft Edge";v="138"
+2025-08-02 16:58:49,935 - Flask_api - INFO - [Flask_api.py:130] -    Content-Type: application/json; charset=utf-8
+2025-08-02 16:58:49,936 - Flask_api - INFO - [Flask_api.py:130] -    Sec-Ch-Ua-Mobile: ?0
+2025-08-02 16:58:49,936 - Flask_api - INFO - [Flask_api.py:130] -    Accept: */*
+2025-08-02 16:58:49,936 - Flask_api - INFO - [Flask_api.py:130] -    Origin: http://localhost:65404
+2025-08-02 16:58:49,937 - Flask_api - INFO - [Flask_api.py:130] -    Sec-Fetch-Site: same-site
+2025-08-02 16:58:49,937 - Flask_api - INFO - [Flask_api.py:130] -    Sec-Fetch-Mode: cors
+2025-08-02 16:58:49,937 - Flask_api - INFO - [Flask_api.py:130] -    Sec-Fetch-Dest: empty
+2025-08-02 16:58:49,938 - Flask_api - INFO - [Flask_api.py:130] -    Referer: http://localhost:65404/
+2025-08-02 16:58:49,938 - Flask_api - INFO - [Flask_api.py:130] -    Accept-Encoding: gzip, deflate, br, zstd
+2025-08-02 16:58:49,938 - Flask_api - INFO - [Flask_api.py:130] -    Accept-Language: en-US,en;q=0.9
+2025-08-02 16:58:50,000 - Flask_api - INFO - [Flask_api.py:146] -    Feedback ID: 1754153929264_0
+2025-08-02 16:58:50,001 - Flask_api - INFO - [Flask_api.py:147] -    User ID: current_user_id
+2025-08-02 16:58:50,001 - Flask_api - INFO - [Flask_api.py:148] -    Feedback Type: negative
+2025-08-02 16:58:50,007 - Flask_api - INFO - [Flask_api.py:150] -    Comment: Actually water data can be shown in a single context other then having this blocks and each block for review
+2025-08-02 16:58:50,008 - Flask_api - INFO - [Flask_api.py:151] -    Categories: ['Other']
+2025-08-02 16:58:50,008 - Flask_api - INFO - [Flask_api.py:152] -    Intent: intent_from_rasa
+2025-08-02 16:58:50,009 - Flask_api - INFO - [Flask_api.py:153] -    Confidence: 0.85
+2025-08-02 16:58:50,063 - Flask_api - INFO - [Flask_api.py:177] -    Database: reviews
+2025-08-02 16:58:50,063 - Flask_api - INFO - [Flask_api.py:178] -    URI: bolt://localhost:7687
+2025-08-02 16:58:50,069 - neo4j_service - INFO - [neo4j_service.py:71] -    Target Database: reviews
+2025-08-02 16:58:50,069 - neo4j_service - INFO - [neo4j_service.py:72] -    Feedback ID: 1754153929264_0
+2025-08-02 16:58:50,070 - neo4j_service - INFO - [neo4j_service.py:73] -    User ID: current_user_id
+2025-08-02 16:58:50,312 - neo4j_service - INFO - [neo4j_service.py:81] -    Database: reviews
+2025-08-02 16:58:50,313 - neo4j_service - INFO - [neo4j_service.py:82] -    Record Created: 1754153929264_0
+2025-08-02 16:58:50,322 - Flask_api - INFO - [Flask_api.py:184] -    Feedback ID: 1754153929264_0
+2025-08-02 16:58:50,322 - Flask_api - INFO - [Flask_api.py:185] -    Stored in database: reviews
+2025-08-02 16:58:50,322 - Flask_api - INFO - [Flask_api.py:186] -    User: current_user_id
+2025-08-02 16:58:50,323 - Flask_api - INFO - [Flask_api.py:187] -    Type: negative
+2025-08-02 16:58:50,329 - Flask_api - INFO - [Flask_api.py:189] - ================================================================================
+2025-08-02 16:58:50,330 - werkzeug - INFO - [_internal.py:97] - 127.0.0.1 - - [02/Aug/2025 16:58:50] "POST /api/feedback HTTP/1.1" 200 -
+2025-08-02 17:01:32,362 - Flask_api - INFO - [Flask_api.py:331] - Neo4j service connection closed
+2025-08-02 17:01:32,362 - __main__ - INFO - [app.py:169] - Application cleanup completed
+2025-08-02 17:01:32,362 - Flask_api - INFO - [Flask_api.py:331] - Neo4j service connection closed
+2025-08-02 17:01:32,475 - Flask_api - INFO - [Flask_api.py:331] - Neo4j service connection closed
+2025-08-02 17:01:32,475 - __main__ - INFO - [app.py:169] - Application cleanup completed
+2025-08-02 17:01:32,476 - Flask_api - INFO - [Flask_api.py:331] - Neo4j service connection closed
+2025-08-03 03:09:16,778 - __main__ - INFO - [app.py:138] - Initializing Neo4j service...
+2025-08-03 03:09:18,932 - neo4j_service - INFO - [neo4j_service.py:28] - Neo4j connection verified successfully
+2025-08-03 03:09:19,693 - neo4j_service - INFO - [neo4j_service.py:57] - Neo4j constraints and indexes created/verified
+2025-08-03 03:09:19,694 - Flask_api - INFO - [Flask_api.py:43] - Neo4j service initialized successfully
+2025-08-03 03:09:19,694 - __main__ - INFO - [app.py:140] - Neo4j service initialized successfully
+2025-08-03 03:09:19,694 - __main__ - INFO - [app.py:152] - Starting Flask server on 0.0.0.0:8000
+2025-08-03 03:09:19,795 - werkzeug - INFO - [_internal.py:97] - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8000
+ * Running on http://10.160.0.2:8000
+2025-08-03 03:09:19,795 - werkzeug - INFO - [_internal.py:97] - [33mPress CTRL+C to quit[0m
+2025-08-03 03:09:19,798 - werkzeug - INFO - [_internal.py:97] -  * Restarting with stat
+2025-08-03 03:09:20,947 - __main__ - INFO - [app.py:138] - Initializing Neo4j service...
+2025-08-03 03:09:23,068 - neo4j_service - INFO - [neo4j_service.py:28] - Neo4j connection verified successfully
+2025-08-03 03:09:23,190 - neo4j_service - INFO - [neo4j_service.py:57] - Neo4j constraints and indexes created/verified
+2025-08-03 03:09:23,190 - Flask_api - INFO - [Flask_api.py:43] - Neo4j service initialized successfully
+2025-08-03 03:09:23,191 - __main__ - INFO - [app.py:140] - Neo4j service initialized successfully
+2025-08-03 03:09:23,191 - __main__ - INFO - [app.py:152] - Starting Flask server on 0.0.0.0:8000
+2025-08-03 03:09:23,217 - werkzeug - WARNING - [_internal.py:97] -  * Debugger is active!
+2025-08-03 03:09:23,222 - werkzeug - INFO - [_internal.py:97] -  * Debugger PIN: 817-675-111
+2025-08-03 03:22:35,300 - werkzeug - INFO - [_internal.py:97] - 127.0.0.1 - - [03/Aug/2025 03:22:35] "OPTIONS /api/feedback HTTP/1.1" 200 -
+2025-08-03 03:22:35,558 - Flask_api - INFO - [Flask_api.py:117] - ================================================================================
+2025-08-03 03:22:35,848 - Flask_api - INFO - [Flask_api.py:124] - ================================================================================
+2025-08-03 03:22:35,856 - Flask_api - INFO - [Flask_api.py:130] -    Host: localhost:8000
+2025-08-03 03:22:35,856 - Flask_api - INFO - [Flask_api.py:130] -    Connection: keep-alive
+2025-08-03 03:22:35,857 - Flask_api - INFO - [Flask_api.py:130] -    Content-Length: 441
+2025-08-03 03:22:35,857 - Flask_api - INFO - [Flask_api.py:130] -    Sec-Ch-Ua-Platform: "Windows"
+2025-08-03 03:22:35,857 - Flask_api - INFO - [Flask_api.py:130] -    User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Edg/138.0.0.0
+2025-08-03 03:22:35,857 - Flask_api - INFO - [Flask_api.py:130] -    Sec-Ch-Ua: "Not)A;Brand";v="8", "Chromium";v="138", "Microsoft Edge";v="138"
+2025-08-03 03:22:35,858 - Flask_api - INFO - [Flask_api.py:130] -    Content-Type: application/json; charset=utf-8
+2025-08-03 03:22:35,858 - Flask_api - INFO - [Flask_api.py:130] -    Sec-Ch-Ua-Mobile: ?0
+2025-08-03 03:22:35,858 - Flask_api - INFO - [Flask_api.py:130] -    Accept: */*
+2025-08-03 03:22:35,858 - Flask_api - INFO - [Flask_api.py:130] -    Origin: http://localhost:61413
+2025-08-03 03:22:35,859 - Flask_api - INFO - [Flask_api.py:130] -    Sec-Fetch-Site: same-site
+2025-08-03 03:22:35,859 - Flask_api - INFO - [Flask_api.py:130] -    Sec-Fetch-Mode: cors
+2025-08-03 03:22:35,859 - Flask_api - INFO - [Flask_api.py:130] -    Sec-Fetch-Dest: empty
+2025-08-03 03:22:35,859 - Flask_api - INFO - [Flask_api.py:130] -    Referer: http://localhost:61413/
+2025-08-03 03:22:35,860 - Flask_api - INFO - [Flask_api.py:130] -    Accept-Encoding: gzip, deflate, br, zstd
+2025-08-03 03:22:35,860 - Flask_api - INFO - [Flask_api.py:130] -    Accept-Language: en-US,en;q=0.9
+2025-08-03 03:22:35,907 - Flask_api - INFO - [Flask_api.py:146] -    Feedback ID: 1754191354987_0
+2025-08-03 03:22:35,907 - Flask_api - INFO - [Flask_api.py:147] -    User ID: current_user_id
+2025-08-03 03:22:35,908 - Flask_api - INFO - [Flask_api.py:148] -    Feedback Type: positive
+2025-08-03 03:22:35,912 - Flask_api - INFO - [Flask_api.py:150] -    Comment: Is my review acceptable please check i am tired
+2025-08-03 03:22:35,912 - Flask_api - INFO - [Flask_api.py:151] -    Categories: ['Other']
+2025-08-03 03:22:35,913 - Flask_api - INFO - [Flask_api.py:152] -    Intent: intent_from_rasa
+2025-08-03 03:22:35,913 - Flask_api - INFO - [Flask_api.py:153] -    Confidence: 0.85
+2025-08-03 03:22:35,927 - Flask_api - INFO - [Flask_api.py:177] -    Database: reviews
+2025-08-03 03:22:35,927 - Flask_api - INFO - [Flask_api.py:178] -    URI: bolt://localhost:7687
+2025-08-03 03:22:35,964 - neo4j_service - INFO - [neo4j_service.py:71] -    Target Database: reviews
+2025-08-03 03:22:35,964 - neo4j_service - INFO - [neo4j_service.py:72] -    Feedback ID: 1754191354987_0
+2025-08-03 03:22:35,965 - neo4j_service - INFO - [neo4j_service.py:73] -    User ID: current_user_id
+2025-08-03 03:22:36,377 - neo4j_service - INFO - [neo4j_service.py:81] -    Database: reviews
+2025-08-03 03:22:36,377 - neo4j_service - INFO - [neo4j_service.py:82] -    Record Created: 1754191354987_0
+2025-08-03 03:22:36,386 - Flask_api - INFO - [Flask_api.py:184] -    Feedback ID: 1754191354987_0
+2025-08-03 03:22:36,386 - Flask_api - INFO - [Flask_api.py:185] -    Stored in database: reviews
+2025-08-03 03:22:36,387 - Flask_api - INFO - [Flask_api.py:186] -    User: current_user_id
+2025-08-03 03:22:36,388 - Flask_api - INFO - [Flask_api.py:187] -    Type: positive
+2025-08-03 03:22:36,393 - Flask_api - INFO - [Flask_api.py:189] - ================================================================================
+2025-08-03 03:22:36,396 - werkzeug - INFO - [_internal.py:97] - 127.0.0.1 - - [03/Aug/2025 03:22:36] "POST /api/feedback HTTP/1.1" 200 -
+2025-08-03 05:55:13,773 - werkzeug - INFO - [_internal.py:97] -  * Detected change in 'C:\\Users\\g2125bcse18\\Documents\\Neo4j_Integration\\test_simplified_feedback.py', reloading
+2025-08-03 05:55:13,775 - Flask_api - INFO - [Flask_api.py:331] - Neo4j service connection closed
+2025-08-03 05:55:13,775 - __main__ - INFO - [app.py:169] - Application cleanup completed
+2025-08-03 05:55:13,776 - Flask_api - INFO - [Flask_api.py:331] - Neo4j service connection closed
+2025-08-03 05:55:13,860 - werkzeug - INFO - [_internal.py:97] -  * Restarting with stat
+2025-08-03 05:55:14,545 - __main__ - INFO - [app.py:138] - Initializing Neo4j service...
+2025-08-03 05:55:16,653 - neo4j_service - INFO - [neo4j_service.py:28] - Neo4j connection verified successfully
+2025-08-03 05:55:16,712 - neo4j_service - INFO - [neo4j_service.py:55] - Neo4j constraints and indexes created/verified
+2025-08-03 05:55:16,713 - Flask_api - INFO - [Flask_api.py:43] - Neo4j service initialized successfully
+2025-08-03 05:55:16,713 - __main__ - INFO - [app.py:140] - Neo4j service initialized successfully
+2025-08-03 05:55:16,713 - __main__ - INFO - [app.py:152] - Starting Flask server on 0.0.0.0:8000
+2025-08-03 05:55:16,737 - werkzeug - WARNING - [_internal.py:97] -  * Debugger is active!
+2025-08-03 05:55:16,740 - werkzeug - INFO - [_internal.py:97] -  * Debugger PIN: 817-675-111
+2025-08-03 07:17:16,898 - werkzeug - INFO - [_internal.py:97] -  * Detected change in 'C:\\Users\\g2125bcse18\\Documents\\Neo4j_Integration\\neo4j_service.py', reloading
+2025-08-03 07:17:16,900 - Flask_api - INFO - [Flask_api.py:328] - Neo4j service connection closed
+2025-08-03 07:17:16,900 - __main__ - INFO - [app.py:169] - Application cleanup completed
+2025-08-03 07:17:16,902 - Flask_api - INFO - [Flask_api.py:328] - Neo4j service connection closed
+2025-08-03 07:17:17,032 - werkzeug - INFO - [_internal.py:97] -  * Restarting with stat
+2025-08-03 07:17:17,713 - __main__ - INFO - [app.py:138] - Initializing Neo4j service...
+2025-08-03 07:17:19,789 - neo4j_service - INFO - [neo4j_service.py:28] - Neo4j connection verified successfully
+2025-08-03 07:17:19,812 - neo4j_service - INFO - [neo4j_service.py:49] - Neo4j constraints and indexes created/verified
+2025-08-03 07:17:19,812 - Flask_api - INFO - [Flask_api.py:43] - Neo4j service initialized successfully
+2025-08-03 07:17:19,812 - __main__ - INFO - [app.py:140] - Neo4j service initialized successfully
+2025-08-03 07:17:19,812 - __main__ - INFO - [app.py:152] - Starting Flask server on 0.0.0.0:8000
+2025-08-03 07:17:19,836 - werkzeug - WARNING - [_internal.py:97] -  * Debugger is active!
+2025-08-03 07:17:19,840 - werkzeug - INFO - [_internal.py:97] -  * Debugger PIN: 817-675-111
+2025-08-03 09:44:10,578 - werkzeug - INFO - [_internal.py:97] -  * Detected change in 'C:\\Users\\g2125bcse18\\Documents\\Neo4j_Integration\\test_simplified_feedback.py', reloading
+2025-08-03 09:44:10,580 - Flask_api - INFO - [Flask_api.py:321] - Neo4j service connection closed
+2025-08-03 09:44:10,581 - __main__ - INFO - [app.py:169] - Application cleanup completed
+2025-08-03 09:44:10,581 - Flask_api - INFO - [Flask_api.py:321] - Neo4j service connection closed
+2025-08-03 09:44:10,677 - werkzeug - INFO - [_internal.py:97] -  * Restarting with stat
+2025-08-03 09:44:11,404 - __main__ - INFO - [app.py:138] - Initializing Neo4j service...
+2025-08-03 09:44:13,455 - neo4j_service - INFO - [neo4j_service.py:28] - Neo4j connection verified successfully
+2025-08-03 09:44:13,466 - neo4j_service - INFO - [neo4j_service.py:49] - Neo4j constraints and indexes created/verified
+2025-08-03 09:44:13,467 - Flask_api - INFO - [Flask_api.py:43] - Neo4j service initialized successfully
+2025-08-03 09:44:13,467 - __main__ - INFO - [app.py:140] - Neo4j service initialized successfully
+2025-08-03 09:44:13,468 - __main__ - INFO - [app.py:152] - Starting Flask server on 0.0.0.0:8000
+2025-08-03 09:44:13,491 - werkzeug - WARNING - [_internal.py:97] -  * Debugger is active!
+2025-08-03 09:44:13,495 - werkzeug - INFO - [_internal.py:97] -  * Debugger PIN: 817-675-111
+2025-08-03 12:33:45,117 - werkzeug - INFO - [_internal.py:97] - 127.0.0.1 - - [03/Aug/2025 12:33:45] "OPTIONS /api/feedback HTTP/1.1" 200 -
+2025-08-03 12:33:45,354 - Flask_api - INFO - [Flask_api.py:110] - ================================================================================
+2025-08-03 12:33:45,620 - Flask_api - INFO - [Flask_api.py:117] - ================================================================================
+2025-08-03 12:33:45,624 - Flask_api - INFO - [Flask_api.py:123] -    Host: localhost:8000
+2025-08-03 12:33:45,625 - Flask_api - INFO - [Flask_api.py:123] -    Connection: keep-alive
+2025-08-03 12:33:45,625 - Flask_api - INFO - [Flask_api.py:123] -    Content-Length: 236
+2025-08-03 12:33:45,626 - Flask_api - INFO - [Flask_api.py:123] -    Sec-Ch-Ua-Platform: "Windows"
+2025-08-03 12:33:45,626 - Flask_api - INFO - [Flask_api.py:123] -    User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Edg/138.0.0.0
+2025-08-03 12:33:45,626 - Flask_api - INFO - [Flask_api.py:123] -    Accept: application/json
+2025-08-03 12:33:45,626 - Flask_api - INFO - [Flask_api.py:123] -    Sec-Ch-Ua: "Not)A;Brand";v="8", "Chromium";v="138", "Microsoft Edge";v="138"
+2025-08-03 12:33:45,627 - Flask_api - INFO - [Flask_api.py:123] -    Content-Type: application/json; charset=utf-8
+2025-08-03 12:33:45,627 - Flask_api - INFO - [Flask_api.py:123] -    Sec-Ch-Ua-Mobile: ?0
+2025-08-03 12:33:45,627 - Flask_api - INFO - [Flask_api.py:123] -    Origin: http://localhost:63275
+2025-08-03 12:33:45,628 - Flask_api - INFO - [Flask_api.py:123] -    Sec-Fetch-Site: same-site
+2025-08-03 12:33:45,628 - Flask_api - INFO - [Flask_api.py:123] -    Sec-Fetch-Mode: cors
+2025-08-03 12:33:45,629 - Flask_api - INFO - [Flask_api.py:123] -    Sec-Fetch-Dest: empty
+2025-08-03 12:33:45,629 - Flask_api - INFO - [Flask_api.py:123] -    Referer: http://localhost:63275/
+2025-08-03 12:33:45,629 - Flask_api - INFO - [Flask_api.py:123] -    Accept-Encoding: gzip, deflate, br, zstd
+2025-08-03 12:33:45,629 - Flask_api - INFO - [Flask_api.py:123] -    Accept-Language: en-US,en;q=0.9
+2025-08-03 12:33:45,688 - Flask_api - INFO - [Flask_api.py:139] -    User Query: AQI Berlin...
+2025-08-03 12:33:45,728 - Flask_api - INFO - [Flask_api.py:141] -    Feedback Type: positive
+2025-08-03 12:33:45,729 - Flask_api - INFO - [Flask_api.py:142] -    User Comment: It was connected sucessfuly to neo4j please check
+2025-08-03 12:33:45,730 - Flask_api - INFO - [Flask_api.py:143] -    Rating Stars: 5/5
+2025-08-03 12:33:45,743 - Flask_api - INFO - [Flask_api.py:167] -    Database: reviews
+2025-08-03 12:33:45,744 - Flask_api - INFO - [Flask_api.py:168] -    URI: bolt://localhost:7687
+2025-08-03 12:33:45,750 - neo4j_service - INFO - [neo4j_service.py:63] -    Target Database: reviews
+2025-08-03 12:33:45,750 - neo4j_service - INFO - [neo4j_service.py:64] -    Feedback Type: positive
+2025-08-03 12:33:45,751 - neo4j_service - INFO - [neo4j_service.py:65] -    Rating: 5/5 stars
+2025-08-03 12:33:47,806 - neo4j_service - INFO - [neo4j_service.py:98] -    User Query: AQI Berlin...
+2025-08-03 12:33:47,845 - neo4j_service - INFO - [neo4j_service.py:100] -    Feedback Type: positive
+2025-08-03 12:33:47,845 - neo4j_service - INFO - [neo4j_service.py:101] -    User Comment: It was connected sucessfuly to neo4j please check
+2025-08-03 12:33:47,846 - neo4j_service - INFO - [neo4j_service.py:102] -    Rating Stars: 5/5
+2025-08-03 12:33:48,211 - neo4j_service - INFO - [neo4j_service.py:133] -    Node ID: 1
+2025-08-03 12:33:48,226 - neo4j_service - INFO - [neo4j_service.py:73] -    Database: reviews
+2025-08-03 12:33:48,242 - Flask_api - INFO - [Flask_api.py:174] -    Stored in database: reviews
+2025-08-03 12:33:48,242 - Flask_api - INFO - [Flask_api.py:175] -    Feedback Type: positive
+2025-08-03 12:33:48,242 - Flask_api - INFO - [Flask_api.py:176] -    Rating: 5/5 stars
+2025-08-03 12:33:48,266 - Flask_api - INFO - [Flask_api.py:178] - ================================================================================
+2025-08-03 12:33:48,267 - werkzeug - INFO - [_internal.py:97] - 127.0.0.1 - - [03/Aug/2025 12:33:48] "POST /api/feedback HTTP/1.1" 200 -
+2025-08-03 12:33:48,347 - Flask_api - INFO - [Flask_api.py:110] - ================================================================================
+2025-08-03 12:33:48,374 - Flask_api - INFO - [Flask_api.py:117] - ================================================================================
+2025-08-03 12:33:48,379 - Flask_api - INFO - [Flask_api.py:123] -    Host: localhost:8000
+2025-08-03 12:33:48,379 - Flask_api - INFO - [Flask_api.py:123] -    Connection: keep-alive
+2025-08-03 12:33:48,379 - Flask_api - INFO - [Flask_api.py:123] -    Content-Length: 283
+2025-08-03 12:33:48,379 - Flask_api - INFO - [Flask_api.py:123] -    Sec-Ch-Ua-Platform: "Windows"
+2025-08-03 12:33:48,380 - Flask_api - INFO - [Flask_api.py:123] -    User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Edg/138.0.0.0
+2025-08-03 12:33:48,380 - Flask_api - INFO - [Flask_api.py:123] -    Accept: application/json
+2025-08-03 12:33:48,380 - Flask_api - INFO - [Flask_api.py:123] -    Sec-Ch-Ua: "Not)A;Brand";v="8", "Chromium";v="138", "Microsoft Edge";v="138"
+2025-08-03 12:33:48,381 - Flask_api - INFO - [Flask_api.py:123] -    Content-Type: application/json; charset=utf-8
+2025-08-03 12:33:48,381 - Flask_api - INFO - [Flask_api.py:123] -    Sec-Ch-Ua-Mobile: ?0
+2025-08-03 12:33:48,381 - Flask_api - INFO - [Flask_api.py:123] -    Origin: http://localhost:63275
+2025-08-03 12:33:48,382 - Flask_api - INFO - [Flask_api.py:123] -    Sec-Fetch-Site: same-site
+2025-08-03 12:33:48,382 - Flask_api - INFO - [Flask_api.py:123] -    Sec-Fetch-Mode: cors
+2025-08-03 12:33:48,382 - Flask_api - INFO - [Flask_api.py:123] -    Sec-Fetch-Dest: empty
+2025-08-03 12:33:48,382 - Flask_api - INFO - [Flask_api.py:123] -    Referer: http://localhost:63275/
+2025-08-03 12:33:48,383 - Flask_api - INFO - [Flask_api.py:123] -    Accept-Encoding: gzip, deflate, br, zstd
+2025-08-03 12:33:48,383 - Flask_api - INFO - [Flask_api.py:123] -    Accept-Language: en-US,en;q=0.9
+2025-08-03 12:33:48,403 - Flask_api - ERROR - [Flask_api.py:147] -    message_id: ['Unknown field.']
+2025-08-03 12:33:48,403 - Flask_api - ERROR - [Flask_api.py:147] -    categories: ['Unknown field.']
+2025-08-03 12:33:48,404 - werkzeug - INFO - [_internal.py:97] - 127.0.0.1 - - [03/Aug/2025 12:33:48] "[31m[1mPOST /api/feedback HTTP/1.1[0m" 400 -
+2025-08-03 12:34:51,148 - Flask_api - INFO - [Flask_api.py:321] - Neo4j service connection closed
+2025-08-03 12:34:51,148 - __main__ - INFO - [app.py:169] - Application cleanup completed
+2025-08-03 12:34:51,149 - Flask_api - INFO - [Flask_api.py:321] - Neo4j service connection closed
+2025-08-03 12:34:51,241 - Flask_api - INFO - [Flask_api.py:331] - Neo4j service connection closed
+2025-08-03 12:34:51,241 - __main__ - INFO - [app.py:169] - Application cleanup completed
+2025-08-03 12:34:51,241 - Flask_api - INFO - [Flask_api.py:331] - Neo4j service connection closed
+2025-08-03 12:34:53,423 - __main__ - INFO - [app.py:138] - Initializing Neo4j service...
+2025-08-03 12:34:55,489 - neo4j_service - INFO - [neo4j_service.py:28] - Neo4j connection verified successfully
+2025-08-03 12:34:55,499 - neo4j_service - INFO - [neo4j_service.py:49] - Neo4j constraints and indexes created/verified
+2025-08-03 12:34:55,499 - Flask_api - INFO - [Flask_api.py:43] - Neo4j service initialized successfully
+2025-08-03 12:34:55,500 - __main__ - INFO - [app.py:140] - Neo4j service initialized successfully
+2025-08-03 12:34:55,500 - __main__ - INFO - [app.py:152] - Starting Flask server on 0.0.0.0:8000
+2025-08-03 12:34:55,528 - werkzeug - INFO - [_internal.py:97] - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8000
+ * Running on http://10.160.0.2:8000
+2025-08-03 12:34:55,530 - werkzeug - INFO - [_internal.py:97] - [33mPress CTRL+C to quit[0m
+2025-08-03 12:34:55,530 - werkzeug - INFO - [_internal.py:97] -  * Restarting with stat
+2025-08-03 12:34:56,106 - __main__ - INFO - [app.py:138] - Initializing Neo4j service...
+2025-08-03 12:34:58,169 - neo4j_service - INFO - [neo4j_service.py:28] - Neo4j connection verified successfully
+2025-08-03 12:34:58,179 - neo4j_service - INFO - [neo4j_service.py:49] - Neo4j constraints and indexes created/verified
+2025-08-03 12:34:58,179 - Flask_api - INFO - [Flask_api.py:43] - Neo4j service initialized successfully
+2025-08-03 12:34:58,179 - __main__ - INFO - [app.py:140] - Neo4j service initialized successfully
+2025-08-03 12:34:58,180 - __main__ - INFO - [app.py:152] - Starting Flask server on 0.0.0.0:8000
+2025-08-03 12:34:58,199 - werkzeug - WARNING - [_internal.py:97] -  * Debugger is active!
+2025-08-03 12:34:58,202 - werkzeug - INFO - [_internal.py:97] -  * Debugger PIN: 817-675-111
+2025-08-03 12:35:36,222 - werkzeug - INFO - [_internal.py:97] - 127.0.0.1 - - [03/Aug/2025 12:35:36] "OPTIONS /api/feedback HTTP/1.1" 200 -
+2025-08-03 12:35:36,495 - Flask_api - INFO - [Flask_api.py:110] - ================================================================================
+2025-08-03 12:35:36,568 - Flask_api - INFO - [Flask_api.py:117] - ================================================================================
+2025-08-03 12:35:36,572 - Flask_api - INFO - [Flask_api.py:123] -    Host: localhost:8000
+2025-08-03 12:35:36,573 - Flask_api - INFO - [Flask_api.py:123] -    Connection: keep-alive
+2025-08-03 12:35:36,574 - Flask_api - INFO - [Flask_api.py:123] -    Content-Length: 216
+2025-08-03 12:35:36,574 - Flask_api - INFO - [Flask_api.py:123] -    Sec-Ch-Ua-Platform: "Windows"
+2025-08-03 12:35:36,574 - Flask_api - INFO - [Flask_api.py:123] -    User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Edg/138.0.0.0
+2025-08-03 12:35:36,574 - Flask_api - INFO - [Flask_api.py:123] -    Accept: application/json
+2025-08-03 12:35:36,575 - Flask_api - INFO - [Flask_api.py:123] -    Sec-Ch-Ua: "Not)A;Brand";v="8", "Chromium";v="138", "Microsoft Edge";v="138"
+2025-08-03 12:35:36,575 - Flask_api - INFO - [Flask_api.py:123] -    Content-Type: application/json; charset=utf-8
+2025-08-03 12:35:36,575 - Flask_api - INFO - [Flask_api.py:123] -    Sec-Ch-Ua-Mobile: ?0
+2025-08-03 12:35:36,578 - Flask_api - INFO - [Flask_api.py:123] -    Origin: http://localhost:63275
+2025-08-03 12:35:36,579 - Flask_api - INFO - [Flask_api.py:123] -    Sec-Fetch-Site: same-site
+2025-08-03 12:35:36,579 - Flask_api - INFO - [Flask_api.py:123] -    Sec-Fetch-Mode: cors
+2025-08-03 12:35:36,579 - Flask_api - INFO - [Flask_api.py:123] -    Sec-Fetch-Dest: empty
+2025-08-03 12:35:36,580 - Flask_api - INFO - [Flask_api.py:123] -    Referer: http://localhost:63275/
+2025-08-03 12:35:36,580 - Flask_api - INFO - [Flask_api.py:123] -    Accept-Encoding: gzip, deflate, br, zstd
+2025-08-03 12:35:36,582 - Flask_api - INFO - [Flask_api.py:123] -    Accept-Language: en-US,en;q=0.9
+2025-08-03 12:35:36,673 - Flask_api - INFO - [Flask_api.py:139] -    User Query: AQI Berlin...
+2025-08-03 12:35:36,683 - Flask_api - INFO - [Flask_api.py:141] -    Feedback Type: negative
+2025-08-03 12:35:36,683 - Flask_api - INFO - [Flask_api.py:142] -    User Comment: Technical check about the feedback
+2025-08-03 12:35:36,683 - Flask_api - INFO - [Flask_api.py:143] -    Rating Stars: 3/5
+2025-08-03 12:35:36,696 - Flask_api - INFO - [Flask_api.py:167] -    Database: reviews
+2025-08-03 12:35:36,697 - Flask_api - INFO - [Flask_api.py:168] -    URI: bolt://localhost:7687
+2025-08-03 12:35:36,710 - neo4j_service - INFO - [neo4j_service.py:63] -    Target Database: reviews
+2025-08-03 12:35:36,731 - neo4j_service - INFO - [neo4j_service.py:64] -    Feedback Type: negative
+2025-08-03 12:35:36,734 - neo4j_service - INFO - [neo4j_service.py:65] -    Rating: 3/5 stars
+2025-08-03 12:35:36,748 - neo4j_service - INFO - [neo4j_service.py:98] -    User Query: AQI Berlin...
+2025-08-03 12:35:36,752 - neo4j_service - INFO - [neo4j_service.py:100] -    Feedback Type: negative
+2025-08-03 12:35:36,753 - neo4j_service - INFO - [neo4j_service.py:101] -    User Comment: Technical check about the feedback
+2025-08-03 12:35:36,753 - neo4j_service - INFO - [neo4j_service.py:102] -    Rating Stars: 3/5
+2025-08-03 12:35:36,796 - neo4j_service - INFO - [neo4j_service.py:133] -    Node ID: 2
+2025-08-03 12:35:36,814 - neo4j_service - INFO - [neo4j_service.py:73] -    Database: reviews
+2025-08-03 12:35:36,865 - Flask_api - INFO - [Flask_api.py:174] -    Stored in database: reviews
+2025-08-03 12:35:36,865 - Flask_api - INFO - [Flask_api.py:175] -    Feedback Type: negative
+2025-08-03 12:35:36,865 - Flask_api - INFO - [Flask_api.py:176] -    Rating: 3/5 stars
+2025-08-03 12:35:36,870 - Flask_api - INFO - [Flask_api.py:178] - ================================================================================
+2025-08-03 12:35:36,871 - werkzeug - INFO - [_internal.py:97] - 127.0.0.1 - - [03/Aug/2025 12:35:36] "POST /api/feedback HTTP/1.1" 200 -
+2025-08-03 12:35:36,947 - Flask_api - INFO - [Flask_api.py:110] - ================================================================================
+2025-08-03 12:35:36,975 - Flask_api - INFO - [Flask_api.py:117] - ================================================================================
+2025-08-03 12:35:36,979 - Flask_api - INFO - [Flask_api.py:123] -    Host: localhost:8000
+2025-08-03 12:35:36,979 - Flask_api - INFO - [Flask_api.py:123] -    Connection: keep-alive
+2025-08-03 12:35:36,979 - Flask_api - INFO - [Flask_api.py:123] -    Content-Length: 270
+2025-08-03 12:35:36,980 - Flask_api - INFO - [Flask_api.py:123] -    Sec-Ch-Ua-Platform: "Windows"
+2025-08-03 12:35:36,980 - Flask_api - INFO - [Flask_api.py:123] -    User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Edg/138.0.0.0
+2025-08-03 12:35:36,980 - Flask_api - INFO - [Flask_api.py:123] -    Accept: application/json
+2025-08-03 12:35:36,981 - Flask_api - INFO - [Flask_api.py:123] -    Sec-Ch-Ua: "Not)A;Brand";v="8", "Chromium";v="138", "Microsoft Edge";v="138"
+2025-08-03 12:35:36,981 - Flask_api - INFO - [Flask_api.py:123] -    Content-Type: application/json; charset=utf-8
+2025-08-03 12:35:36,981 - Flask_api - INFO - [Flask_api.py:123] -    Sec-Ch-Ua-Mobile: ?0
+2025-08-03 12:35:36,982 - Flask_api - INFO - [Flask_api.py:123] -    Origin: http://localhost:63275
+2025-08-03 12:35:36,982 - Flask_api - INFO - [Flask_api.py:123] -    Sec-Fetch-Site: same-site
+2025-08-03 12:35:36,982 - Flask_api - INFO - [Flask_api.py:123] -    Sec-Fetch-Mode: cors
+2025-08-03 12:35:36,983 - Flask_api - INFO - [Flask_api.py:123] -    Sec-Fetch-Dest: empty
+2025-08-03 12:35:36,983 - Flask_api - INFO - [Flask_api.py:123] -    Referer: http://localhost:63275/
+2025-08-03 12:35:36,983 - Flask_api - INFO - [Flask_api.py:123] -    Accept-Encoding: gzip, deflate, br, zstd
+2025-08-03 12:35:36,983 - Flask_api - INFO - [Flask_api.py:123] -    Accept-Language: en-US,en;q=0.9
+2025-08-03 12:35:37,000 - Flask_api - ERROR - [Flask_api.py:147] -    categories: ['Unknown field.']
+2025-08-03 12:35:37,000 - Flask_api - ERROR - [Flask_api.py:147] -    message_id: ['Unknown field.']
+2025-08-03 12:35:37,001 - werkzeug - INFO - [_internal.py:97] - 127.0.0.1 - - [03/Aug/2025 12:35:37] "[31m[1mPOST /api/feedback HTTP/1.1[0m" 400 -
+2025-08-03 12:40:31,684 - werkzeug - INFO - [_internal.py:97] -  * Detected change in 'C:\\Users\\g2125bcse18\\Documents\\Neo4j_Integration\\Flask_api.py', reloading
+2025-08-03 12:40:31,686 - Flask_api - INFO - [Flask_api.py:321] - Neo4j service connection closed
+2025-08-03 12:40:31,686 - __main__ - INFO - [app.py:169] - Application cleanup completed
+2025-08-03 12:40:31,686 - Flask_api - INFO - [Flask_api.py:321] - Neo4j service connection closed
+2025-08-03 12:40:31,760 - werkzeug - INFO - [_internal.py:97] -  * Restarting with stat
+2025-08-03 12:40:32,336 - __main__ - INFO - [app.py:138] - Initializing Neo4j service...
+2025-08-03 12:40:34,366 - neo4j_service - INFO - [neo4j_service.py:28] - Neo4j connection verified successfully
+2025-08-03 12:40:34,376 - neo4j_service - INFO - [neo4j_service.py:49] - Neo4j constraints and indexes created/verified
+2025-08-03 12:40:34,377 - Flask_api - INFO - [Flask_api.py:43] - Neo4j service initialized successfully
+2025-08-03 12:40:34,377 - __main__ - INFO - [app.py:140] - Neo4j service initialized successfully
+2025-08-03 12:40:34,377 - __main__ - INFO - [app.py:152] - Starting Flask server on 0.0.0.0:8000
+2025-08-03 12:40:34,397 - werkzeug - WARNING - [_internal.py:97] -  * Debugger is active!
+2025-08-03 12:40:34,400 - werkzeug - INFO - [_internal.py:97] -  * Debugger PIN: 817-675-111
+2025-08-03 12:41:28,827 - werkzeug - INFO - [_internal.py:97] - 127.0.0.1 - - [03/Aug/2025 12:41:28] "OPTIONS /api/feedback HTTP/1.1" 200 -
+2025-08-03 12:41:29,061 - Flask_api - INFO - [Flask_api.py:110] - ================================================================================
+2025-08-03 12:41:29,114 - Flask_api - INFO - [Flask_api.py:117] - ================================================================================
+2025-08-03 12:41:29,126 - Flask_api - INFO - [Flask_api.py:123] -    Host: localhost:8000
+2025-08-03 12:41:29,127 - Flask_api - INFO - [Flask_api.py:123] -    Connection: keep-alive
+2025-08-03 12:41:29,166 - Flask_api - INFO - [Flask_api.py:123] -    Content-Length: 265
+2025-08-03 12:41:29,172 - Flask_api - INFO - [Flask_api.py:123] -    Sec-Ch-Ua-Platform: "Windows"
+2025-08-03 12:41:29,172 - Flask_api - INFO - [Flask_api.py:123] -    User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Edg/138.0.0.0
+2025-08-03 12:41:29,173 - Flask_api - INFO - [Flask_api.py:123] -    Accept: application/json
+2025-08-03 12:41:29,173 - Flask_api - INFO - [Flask_api.py:123] -    Sec-Ch-Ua: "Not)A;Brand";v="8", "Chromium";v="138", "Microsoft Edge";v="138"
+2025-08-03 12:41:29,173 - Flask_api - INFO - [Flask_api.py:123] -    Content-Type: application/json; charset=utf-8
+2025-08-03 12:41:29,173 - Flask_api - INFO - [Flask_api.py:123] -    Sec-Ch-Ua-Mobile: ?0
+2025-08-03 12:41:29,173 - Flask_api - INFO - [Flask_api.py:123] -    Origin: http://localhost:63275
+2025-08-03 12:41:29,174 - Flask_api - INFO - [Flask_api.py:123] -    Sec-Fetch-Site: same-site
+2025-08-03 12:41:29,174 - Flask_api - INFO - [Flask_api.py:123] -    Sec-Fetch-Mode: cors
+2025-08-03 12:41:29,174 - Flask_api - INFO - [Flask_api.py:123] -    Sec-Fetch-Dest: empty
+2025-08-03 12:41:29,174 - Flask_api - INFO - [Flask_api.py:123] -    Referer: http://localhost:63275/
+2025-08-03 12:41:29,174 - Flask_api - INFO - [Flask_api.py:123] -    Accept-Encoding: gzip, deflate, br, zstd
+2025-08-03 12:41:29,174 - Flask_api - INFO - [Flask_api.py:123] -    Accept-Language: en-US,en;q=0.9
+2025-08-03 12:41:29,237 - Flask_api - INFO - [Flask_api.py:139] -    User Query: Hello...
+2025-08-03 12:41:29,272 - Flask_api - INFO - [Flask_api.py:141] -    Feedback Type: negative
+2025-08-03 12:41:29,274 - Flask_api - INFO - [Flask_api.py:142] -    User Comment: To check wheteher the feedback is going or not
+2025-08-03 12:41:29,274 - Flask_api - INFO - [Flask_api.py:143] -    Rating Stars: 1/5
+2025-08-03 12:41:29,369 - Flask_api - INFO - [Flask_api.py:167] -    Database: reviews
+2025-08-03 12:41:29,373 - Flask_api - INFO - [Flask_api.py:168] -    URI: bolt://localhost:7687
+2025-08-03 12:41:29,379 - neo4j_service - INFO - [neo4j_service.py:63] -    Target Database: reviews
+2025-08-03 12:41:29,379 - neo4j_service - INFO - [neo4j_service.py:64] -    Feedback Type: negative
+2025-08-03 12:41:29,380 - neo4j_service - INFO - [neo4j_service.py:65] -    Rating: 1/5 stars
+2025-08-03 12:41:29,393 - neo4j_service - INFO - [neo4j_service.py:98] -    User Query: Hello...
+2025-08-03 12:41:29,398 - neo4j_service - INFO - [neo4j_service.py:100] -    Feedback Type: negative
+2025-08-03 12:41:29,399 - neo4j_service - INFO - [neo4j_service.py:101] -    User Comment: To check wheteher the feedback is going or not
+2025-08-03 12:41:29,400 - neo4j_service - INFO - [neo4j_service.py:102] -    Rating Stars: 1/5
+2025-08-03 12:41:29,415 - neo4j_service - INFO - [neo4j_service.py:133] -    Node ID: 3
+2025-08-03 12:41:29,431 - neo4j_service - INFO - [neo4j_service.py:73] -    Database: reviews
+2025-08-03 12:41:29,472 - Flask_api - INFO - [Flask_api.py:174] -    Stored in database: reviews
+2025-08-03 12:41:29,472 - Flask_api - INFO - [Flask_api.py:175] -    Feedback Type: negative
+2025-08-03 12:41:29,473 - Flask_api - INFO - [Flask_api.py:176] -    Rating: 1/5 stars
+2025-08-03 12:41:29,478 - Flask_api - INFO - [Flask_api.py:178] - ================================================================================
+2025-08-03 12:41:29,479 - werkzeug - INFO - [_internal.py:97] - 127.0.0.1 - - [03/Aug/2025 12:41:29] "POST /api/feedback HTTP/1.1" 200 -
+2025-08-03 12:41:29,604 - Flask_api - INFO - [Flask_api.py:110] - ================================================================================
+2025-08-03 12:41:29,631 - Flask_api - INFO - [Flask_api.py:117] - ================================================================================
+2025-08-03 12:41:29,635 - Flask_api - INFO - [Flask_api.py:123] -    Host: localhost:8000
+2025-08-03 12:41:29,635 - Flask_api - INFO - [Flask_api.py:123] -    Connection: keep-alive
+2025-08-03 12:41:29,635 - Flask_api - INFO - [Flask_api.py:123] -    Content-Length: 319
+2025-08-03 12:41:29,636 - Flask_api - INFO - [Flask_api.py:123] -    Sec-Ch-Ua-Platform: "Windows"
+2025-08-03 12:41:29,636 - Flask_api - INFO - [Flask_api.py:123] -    User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Edg/138.0.0.0
+2025-08-03 12:41:29,636 - Flask_api - INFO - [Flask_api.py:123] -    Accept: application/json
+2025-08-03 12:41:29,637 - Flask_api - INFO - [Flask_api.py:123] -    Sec-Ch-Ua: "Not)A;Brand";v="8", "Chromium";v="138", "Microsoft Edge";v="138"
+2025-08-03 12:41:29,637 - Flask_api - INFO - [Flask_api.py:123] -    Content-Type: application/json; charset=utf-8
+2025-08-03 12:41:29,637 - Flask_api - INFO - [Flask_api.py:123] -    Sec-Ch-Ua-Mobile: ?0
+2025-08-03 12:41:29,638 - Flask_api - INFO - [Flask_api.py:123] -    Origin: http://localhost:63275
+2025-08-03 12:41:29,638 - Flask_api - INFO - [Flask_api.py:123] -    Sec-Fetch-Site: same-site
+2025-08-03 12:41:29,638 - Flask_api - INFO - [Flask_api.py:123] -    Sec-Fetch-Mode: cors
+2025-08-03 12:41:29,638 - Flask_api - INFO - [Flask_api.py:123] -    Sec-Fetch-Dest: empty
+2025-08-03 12:41:29,639 - Flask_api - INFO - [Flask_api.py:123] -    Referer: http://localhost:63275/
+2025-08-03 12:41:29,639 - Flask_api - INFO - [Flask_api.py:123] -    Accept-Encoding: gzip, deflate, br, zstd
+2025-08-03 12:41:29,639 - Flask_api - INFO - [Flask_api.py:123] -    Accept-Language: en-US,en;q=0.9
+2025-08-03 12:41:29,659 - Flask_api - ERROR - [Flask_api.py:147] -    message_id: ['Unknown field.']
+2025-08-03 12:41:29,659 - Flask_api - ERROR - [Flask_api.py:147] -    categories: ['Unknown field.']
+2025-08-03 12:41:29,661 - werkzeug - INFO - [_internal.py:97] - 127.0.0.1 - - [03/Aug/2025 12:41:29] "[31m[1mPOST /api/feedback HTTP/1.1[0m" 400 -
+2025-08-03 12:42:40,306 - werkzeug - INFO - [_internal.py:97] -  * Detected change in 'C:\\Users\\g2125bcse18\\Documents\\Neo4j_Integration\\Flask_api.py', reloading
+2025-08-03 12:42:40,306 - Flask_api - INFO - [Flask_api.py:321] - Neo4j service connection closed
+2025-08-03 12:42:40,307 - __main__ - INFO - [app.py:169] - Application cleanup completed
+2025-08-03 12:42:40,307 - Flask_api - INFO - [Flask_api.py:321] - Neo4j service connection closed
+2025-08-03 12:42:40,388 - werkzeug - INFO - [_internal.py:97] -  * Restarting with stat
+2025-08-03 12:42:41,047 - Flask_api - INFO - [Flask_api.py:321] - Neo4j service connection closed
+2025-08-03 12:42:41,047 - __main__ - INFO - [app.py:169] - Application cleanup completed
+2025-08-03 12:42:41,048 - Flask_api - INFO - [Flask_api.py:321] - Neo4j service connection closed
+2025-08-03 12:44:13,811 - __main__ - INFO - [app.py:138] - Initializing Neo4j service...
+2025-08-03 12:44:15,850 - neo4j_service - INFO - [neo4j_service.py:28] - Neo4j connection verified successfully
+2025-08-03 12:44:15,859 - neo4j_service - INFO - [neo4j_service.py:49] - Neo4j constraints and indexes created/verified
+2025-08-03 12:44:15,859 - Flask_api - INFO - [Flask_api.py:43] - Neo4j service initialized successfully
+2025-08-03 12:44:15,859 - __main__ - INFO - [app.py:140] - Neo4j service initialized successfully
+2025-08-03 12:44:15,859 - __main__ - INFO - [app.py:152] - Starting Flask server on 0.0.0.0:8000
+2025-08-03 12:44:15,891 - werkzeug - INFO - [_internal.py:97] - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8000
+ * Running on http://10.160.0.2:8000
+2025-08-03 12:44:15,891 - werkzeug - INFO - [_internal.py:97] - [33mPress CTRL+C to quit[0m
+2025-08-03 12:44:15,894 - werkzeug - INFO - [_internal.py:97] -  * Restarting with stat
+2025-08-03 12:44:16,448 - __main__ - INFO - [app.py:138] - Initializing Neo4j service...
+2025-08-03 12:44:18,513 - neo4j_service - INFO - [neo4j_service.py:28] - Neo4j connection verified successfully
+2025-08-03 12:44:18,522 - neo4j_service - INFO - [neo4j_service.py:49] - Neo4j constraints and indexes created/verified
+2025-08-03 12:44:18,522 - Flask_api - INFO - [Flask_api.py:43] - Neo4j service initialized successfully
+2025-08-03 12:44:18,522 - __main__ - INFO - [app.py:140] - Neo4j service initialized successfully
+2025-08-03 12:44:18,522 - __main__ - INFO - [app.py:152] - Starting Flask server on 0.0.0.0:8000
+2025-08-03 12:44:18,542 - werkzeug - WARNING - [_internal.py:97] -  * Debugger is active!
+2025-08-03 12:44:18,544 - werkzeug - INFO - [_internal.py:97] -  * Debugger PIN: 817-675-111
+2025-08-03 12:44:51,372 - werkzeug - INFO - [_internal.py:97] - 127.0.0.1 - - [03/Aug/2025 12:44:51] "OPTIONS /api/feedback HTTP/1.1" 200 -
+2025-08-03 12:44:51,612 - Flask_api - INFO - [Flask_api.py:118] - ================================================================================
+2025-08-03 12:44:51,701 - Flask_api - INFO - [Flask_api.py:125] - ================================================================================
+2025-08-03 12:44:51,706 - Flask_api - INFO - [Flask_api.py:131] -    Host: localhost:8000
+2025-08-03 12:44:51,706 - Flask_api - INFO - [Flask_api.py:131] -    Connection: keep-alive
+2025-08-03 12:44:51,706 - Flask_api - INFO - [Flask_api.py:131] -    Content-Length: 236
+2025-08-03 12:44:51,706 - Flask_api - INFO - [Flask_api.py:131] -    Sec-Ch-Ua-Platform: "Windows"
+2025-08-03 12:44:51,707 - Flask_api - INFO - [Flask_api.py:131] -    User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Edg/138.0.0.0
+2025-08-03 12:44:51,708 - Flask_api - INFO - [Flask_api.py:131] -    Accept: application/json
+2025-08-03 12:44:51,708 - Flask_api - INFO - [Flask_api.py:131] -    Sec-Ch-Ua: "Not)A;Brand";v="8", "Chromium";v="138", "Microsoft Edge";v="138"
+2025-08-03 12:44:51,708 - Flask_api - INFO - [Flask_api.py:131] -    Content-Type: application/json; charset=utf-8
+2025-08-03 12:44:51,709 - Flask_api - INFO - [Flask_api.py:131] -    Sec-Ch-Ua-Mobile: ?0
+2025-08-03 12:44:51,709 - Flask_api - INFO - [Flask_api.py:131] -    Origin: http://localhost:63275
+2025-08-03 12:44:51,710 - Flask_api - INFO - [Flask_api.py:131] -    Sec-Fetch-Site: same-site
+2025-08-03 12:44:51,710 - Flask_api - INFO - [Flask_api.py:131] -    Sec-Fetch-Mode: cors
+2025-08-03 12:44:51,710 - Flask_api - INFO - [Flask_api.py:131] -    Sec-Fetch-Dest: empty
+2025-08-03 12:44:51,711 - Flask_api - INFO - [Flask_api.py:131] -    Referer: http://localhost:63275/
+2025-08-03 12:44:51,711 - Flask_api - INFO - [Flask_api.py:131] -    Accept-Encoding: gzip, deflate, br, zstd
+2025-08-03 12:44:51,711 - Flask_api - INFO - [Flask_api.py:131] -    Accept-Language: en-US,en;q=0.9
+2025-08-03 12:44:51,764 - Flask_api - INFO - [Flask_api.py:147] -    User Query: Hello...
+2025-08-03 12:44:51,799 - Flask_api - INFO - [Flask_api.py:149] -    Feedback Type: negative
+2025-08-03 12:44:51,799 - Flask_api - INFO - [Flask_api.py:150] -    User Comment: TESTING! @TESTING
+2025-08-03 12:44:51,800 - Flask_api - INFO - [Flask_api.py:151] -    Rating Stars: 1/5
+2025-08-03 12:44:51,815 - Flask_api - INFO - [Flask_api.py:175] -    Database: reviews
+2025-08-03 12:44:51,815 - Flask_api - INFO - [Flask_api.py:176] -    URI: bolt://localhost:7687
+2025-08-03 12:44:51,854 - neo4j_service - INFO - [neo4j_service.py:63] -    Target Database: reviews
+2025-08-03 12:44:51,854 - neo4j_service - INFO - [neo4j_service.py:64] -    Feedback Type: negative
+2025-08-03 12:44:51,854 - neo4j_service - INFO - [neo4j_service.py:65] -    Rating: 1/5 stars
+2025-08-03 12:44:51,867 - neo4j_service - INFO - [neo4j_service.py:98] -    User Query: Hello...
+2025-08-03 12:44:51,872 - neo4j_service - INFO - [neo4j_service.py:100] -    Feedback Type: negative
+2025-08-03 12:44:51,873 - neo4j_service - INFO - [neo4j_service.py:101] -    User Comment: TESTING! @TESTING
+2025-08-03 12:44:51,873 - neo4j_service - INFO - [neo4j_service.py:102] -    Rating Stars: 1/5
+2025-08-03 12:44:51,912 - neo4j_service - INFO - [neo4j_service.py:133] -    Node ID: 4
+2025-08-03 12:44:51,922 - neo4j_service - INFO - [neo4j_service.py:73] -    Database: reviews
+2025-08-03 12:44:51,954 - Flask_api - INFO - [Flask_api.py:182] -    Stored in database: reviews
+2025-08-03 12:44:51,955 - Flask_api - INFO - [Flask_api.py:183] -    Feedback Type: negative
+2025-08-03 12:44:51,955 - Flask_api - INFO - [Flask_api.py:184] -    Rating: 1/5 stars
+2025-08-03 12:44:51,961 - Flask_api - INFO - [Flask_api.py:186] - ================================================================================
+2025-08-03 12:44:51,962 - werkzeug - INFO - [_internal.py:97] - 127.0.0.1 - - [03/Aug/2025 12:44:51] "POST /api/feedback HTTP/1.1" 200 -
+2025-08-03 12:44:52,020 - Flask_api - INFO - [Flask_api.py:118] - ================================================================================
+2025-08-03 12:44:52,042 - Flask_api - INFO - [Flask_api.py:125] - ================================================================================
+2025-08-03 12:44:52,046 - Flask_api - INFO - [Flask_api.py:131] -    Host: localhost:8000
+2025-08-03 12:44:52,047 - Flask_api - INFO - [Flask_api.py:131] -    Connection: keep-alive
+2025-08-03 12:44:52,047 - Flask_api - INFO - [Flask_api.py:131] -    Content-Length: 306
+2025-08-03 12:44:52,047 - Flask_api - INFO - [Flask_api.py:131] -    Sec-Ch-Ua-Platform: "Windows"
+2025-08-03 12:44:52,047 - Flask_api - INFO - [Flask_api.py:131] -    User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Edg/138.0.0.0
+2025-08-03 12:44:52,048 - Flask_api - INFO - [Flask_api.py:131] -    Accept: application/json
+2025-08-03 12:44:52,048 - Flask_api - INFO - [Flask_api.py:131] -    Sec-Ch-Ua: "Not)A;Brand";v="8", "Chromium";v="138", "Microsoft Edge";v="138"
+2025-08-03 12:44:52,048 - Flask_api - INFO - [Flask_api.py:131] -    Content-Type: application/json; charset=utf-8
+2025-08-03 12:44:52,048 - Flask_api - INFO - [Flask_api.py:131] -    Sec-Ch-Ua-Mobile: ?0
+2025-08-03 12:44:52,049 - Flask_api - INFO - [Flask_api.py:131] -    Origin: http://localhost:63275
+2025-08-03 12:44:52,049 - Flask_api - INFO - [Flask_api.py:131] -    Sec-Fetch-Site: same-site
+2025-08-03 12:44:52,049 - Flask_api - INFO - [Flask_api.py:131] -    Sec-Fetch-Mode: cors
+2025-08-03 12:44:52,049 - Flask_api - INFO - [Flask_api.py:131] -    Sec-Fetch-Dest: empty
+2025-08-03 12:44:52,050 - Flask_api - INFO - [Flask_api.py:131] -    Referer: http://localhost:63275/
+2025-08-03 12:44:52,050 - Flask_api - INFO - [Flask_api.py:131] -    Accept-Encoding: gzip, deflate, br, zstd
+2025-08-03 12:44:52,050 - Flask_api - INFO - [Flask_api.py:131] -    Accept-Language: en-US,en;q=0.9
+2025-08-03 12:44:52,071 - Flask_api - INFO - [Flask_api.py:147] -    User Query: Hello...
+2025-08-03 12:44:52,076 - Flask_api - INFO - [Flask_api.py:149] -    Feedback Type: negative
+2025-08-03 12:44:52,077 - Flask_api - INFO - [Flask_api.py:150] -    User Comment: TESTING! @TESTING
+2025-08-03 12:44:52,077 - Flask_api - INFO - [Flask_api.py:151] -    Rating Stars: 1/5
+2025-08-03 12:44:52,089 - Flask_api - INFO - [Flask_api.py:175] -    Database: reviews
+2025-08-03 12:44:52,089 - Flask_api - INFO - [Flask_api.py:176] -    URI: bolt://localhost:7687
+2025-08-03 12:44:52,094 - neo4j_service - INFO - [neo4j_service.py:63] -    Target Database: reviews
+2025-08-03 12:44:52,095 - neo4j_service - INFO - [neo4j_service.py:64] -    Feedback Type: negative
+2025-08-03 12:44:52,095 - neo4j_service - INFO - [neo4j_service.py:65] -    Rating: 1/5 stars
+2025-08-03 12:44:52,106 - neo4j_service - INFO - [neo4j_service.py:98] -    User Query: Hello...
+2025-08-03 12:44:52,111 - neo4j_service - INFO - [neo4j_service.py:100] -    Feedback Type: negative
+2025-08-03 12:44:52,111 - neo4j_service - INFO - [neo4j_service.py:101] -    User Comment: TESTING! @TESTING
+2025-08-03 12:44:52,112 - neo4j_service - INFO - [neo4j_service.py:102] -    Rating Stars: 1/5
+2025-08-03 12:44:52,121 - neo4j_service - INFO - [neo4j_service.py:133] -    Node ID: 5
+2025-08-03 12:44:52,131 - neo4j_service - INFO - [neo4j_service.py:73] -    Database: reviews
+2025-08-03 12:44:52,163 - Flask_api - INFO - [Flask_api.py:182] -    Stored in database: reviews
+2025-08-03 12:44:52,163 - Flask_api - INFO - [Flask_api.py:183] -    Feedback Type: negative
+2025-08-03 12:44:52,163 - Flask_api - INFO - [Flask_api.py:184] -    Rating: 1/5 stars
+2025-08-03 12:44:52,168 - Flask_api - INFO - [Flask_api.py:186] - ================================================================================
+2025-08-03 12:44:52,169 - werkzeug - INFO - [_internal.py:97] - 127.0.0.1 - - [03/Aug/2025 12:44:52] "POST /api/feedback HTTP/1.1" 200 -
+2025-08-03 15:13:42,801 - werkzeug - INFO - [_internal.py:97] - 127.0.0.1 - - [03/Aug/2025 15:13:42] "OPTIONS /api/feedback HTTP/1.1" 200 -
+2025-08-03 15:13:43,063 - Flask_api - INFO - [Flask_api.py:118] - ================================================================================
+2025-08-03 15:13:43,154 - Flask_api - INFO - [Flask_api.py:125] - ================================================================================
+2025-08-03 15:13:43,186 - Flask_api - INFO - [Flask_api.py:131] -    Host: localhost:8000
+2025-08-03 15:13:43,186 - Flask_api - INFO - [Flask_api.py:131] -    Connection: keep-alive
+2025-08-03 15:13:43,187 - Flask_api - INFO - [Flask_api.py:131] -    Content-Length: 299
+2025-08-03 15:13:43,187 - Flask_api - INFO - [Flask_api.py:131] -    Sec-Ch-Ua-Platform: "Windows"
+2025-08-03 15:13:43,189 - Flask_api - INFO - [Flask_api.py:131] -    User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Edg/138.0.0.0
+2025-08-03 15:13:43,189 - Flask_api - INFO - [Flask_api.py:131] -    Accept: application/json
+2025-08-03 15:13:43,190 - Flask_api - INFO - [Flask_api.py:131] -    Sec-Ch-Ua: "Not)A;Brand";v="8", "Chromium";v="138", "Microsoft Edge";v="138"
+2025-08-03 15:13:43,191 - Flask_api - INFO - [Flask_api.py:131] -    Content-Type: application/json; charset=utf-8
+2025-08-03 15:13:43,192 - Flask_api - INFO - [Flask_api.py:131] -    Sec-Ch-Ua-Mobile: ?0
+2025-08-03 15:13:43,192 - Flask_api - INFO - [Flask_api.py:131] -    Origin: http://localhost:63774
+2025-08-03 15:13:43,192 - Flask_api - INFO - [Flask_api.py:131] -    Sec-Fetch-Site: same-site
+2025-08-03 15:13:43,192 - Flask_api - INFO - [Flask_api.py:131] -    Sec-Fetch-Mode: cors
+2025-08-03 15:13:43,193 - Flask_api - INFO - [Flask_api.py:131] -    Sec-Fetch-Dest: empty
+2025-08-03 15:13:43,193 - Flask_api - INFO - [Flask_api.py:131] -    Referer: http://localhost:63774/
+2025-08-03 15:13:43,194 - Flask_api - INFO - [Flask_api.py:131] -    Accept-Encoding: gzip, deflate, br, zstd
+2025-08-03 15:13:43,194 - Flask_api - INFO - [Flask_api.py:131] -    Accept-Language: en-US,en;q=0.9
+2025-08-03 15:13:43,258 - Flask_api - INFO - [Flask_api.py:147] -    User Query: Hello...
+2025-08-03 15:13:43,304 - Flask_api - INFO - [Flask_api.py:149] -    Feedback Type: positive
+2025-08-03 15:13:43,304 - Flask_api - INFO - [Flask_api.py:150] -    User Comment: its working
+2025-08-03 15:13:43,305 - Flask_api - INFO - [Flask_api.py:151] -    Rating Stars: 5/5
+2025-08-03 15:13:43,370 - Flask_api - INFO - [Flask_api.py:175] -    Database: reviews
+2025-08-03 15:13:43,371 - Flask_api - INFO - [Flask_api.py:176] -    URI: bolt://localhost:7687
+2025-08-03 15:13:43,377 - neo4j_service - INFO - [neo4j_service.py:63] -    Target Database: reviews
+2025-08-03 15:13:43,378 - neo4j_service - INFO - [neo4j_service.py:64] -    Feedback Type: positive
+2025-08-03 15:13:43,378 - neo4j_service - INFO - [neo4j_service.py:65] -    Rating: 5/5 stars
+2025-08-03 15:13:45,492 - neo4j_service - INFO - [neo4j_service.py:98] -    User Query: Hello...
+2025-08-03 15:13:45,498 - neo4j_service - INFO - [neo4j_service.py:100] -    Feedback Type: positive
+2025-08-03 15:13:45,499 - neo4j_service - INFO - [neo4j_service.py:101] -    User Comment: its working
+2025-08-03 15:13:45,500 - neo4j_service - INFO - [neo4j_service.py:102] -    Rating Stars: 5/5
+2025-08-03 15:13:45,733 - neo4j_service - INFO - [neo4j_service.py:133] -    Node ID: 6
+2025-08-03 15:13:45,777 - neo4j_service - INFO - [neo4j_service.py:73] -    Database: reviews
+2025-08-03 15:13:45,787 - Flask_api - INFO - [Flask_api.py:182] -    Stored in database: reviews
+2025-08-03 15:13:45,787 - Flask_api - INFO - [Flask_api.py:183] -    Feedback Type: positive
+2025-08-03 15:13:45,788 - Flask_api - INFO - [Flask_api.py:184] -    Rating: 5/5 stars
+2025-08-03 15:13:45,802 - Flask_api - INFO - [Flask_api.py:186] - ================================================================================
+2025-08-03 15:13:45,805 - werkzeug - INFO - [_internal.py:97] - 127.0.0.1 - - [03/Aug/2025 15:13:45] "POST /api/feedback HTTP/1.1" 200 -
+2025-08-03 15:13:45,911 - Flask_api - INFO - [Flask_api.py:118] - ================================================================================
+2025-08-03 15:13:45,952 - Flask_api - INFO - [Flask_api.py:125] - ================================================================================
+2025-08-03 15:13:45,958 - Flask_api - INFO - [Flask_api.py:131] -    Host: localhost:8000
+2025-08-03 15:13:45,958 - Flask_api - INFO - [Flask_api.py:131] -    Connection: keep-alive
+2025-08-03 15:13:45,959 - Flask_api - INFO - [Flask_api.py:131] -    Content-Length: 346
+2025-08-03 15:13:45,959 - Flask_api - INFO - [Flask_api.py:131] -    Sec-Ch-Ua-Platform: "Windows"
+2025-08-03 15:13:45,959 - Flask_api - INFO - [Flask_api.py:131] -    User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Edg/138.0.0.0
+2025-08-03 15:13:45,960 - Flask_api - INFO - [Flask_api.py:131] -    Accept: application/json
+2025-08-03 15:13:45,960 - Flask_api - INFO - [Flask_api.py:131] -    Sec-Ch-Ua: "Not)A;Brand";v="8", "Chromium";v="138", "Microsoft Edge";v="138"
+2025-08-03 15:13:45,960 - Flask_api - INFO - [Flask_api.py:131] -    Content-Type: application/json; charset=utf-8
+2025-08-03 15:13:45,961 - Flask_api - INFO - [Flask_api.py:131] -    Sec-Ch-Ua-Mobile: ?0
+2025-08-03 15:13:45,961 - Flask_api - INFO - [Flask_api.py:131] -    Origin: http://localhost:63774
+2025-08-03 15:13:45,961 - Flask_api - INFO - [Flask_api.py:131] -    Sec-Fetch-Site: same-site
+2025-08-03 15:13:45,962 - Flask_api - INFO - [Flask_api.py:131] -    Sec-Fetch-Mode: cors
+2025-08-03 15:13:45,962 - Flask_api - INFO - [Flask_api.py:131] -    Sec-Fetch-Dest: empty
+2025-08-03 15:13:45,962 - Flask_api - INFO - [Flask_api.py:131] -    Referer: http://localhost:63774/
+2025-08-03 15:13:45,962 - Flask_api - INFO - [Flask_api.py:131] -    Accept-Encoding: gzip, deflate, br, zstd
+2025-08-03 15:13:45,963 - Flask_api - INFO - [Flask_api.py:131] -    Accept-Language: en-US,en;q=0.9
+2025-08-03 15:13:45,992 - Flask_api - INFO - [Flask_api.py:147] -    User Query: Hello...
+2025-08-03 15:13:45,997 - Flask_api - INFO - [Flask_api.py:149] -    Feedback Type: positive
+2025-08-03 15:13:45,997 - Flask_api - INFO - [Flask_api.py:150] -    User Comment: its working
+2025-08-03 15:13:45,998 - Flask_api - INFO - [Flask_api.py:151] -    Rating Stars: 5/5
+2025-08-03 15:13:46,015 - Flask_api - INFO - [Flask_api.py:175] -    Database: reviews
+2025-08-03 15:13:46,016 - Flask_api - INFO - [Flask_api.py:176] -    URI: bolt://localhost:7687
+2025-08-03 15:13:46,021 - neo4j_service - INFO - [neo4j_service.py:63] -    Target Database: reviews
+2025-08-03 15:13:46,021 - neo4j_service - INFO - [neo4j_service.py:64] -    Feedback Type: positive
+2025-08-03 15:13:46,021 - neo4j_service - INFO - [neo4j_service.py:65] -    Rating: 5/5 stars
+2025-08-03 15:13:46,032 - neo4j_service - INFO - [neo4j_service.py:98] -    User Query: Hello...
+2025-08-03 15:13:46,078 - neo4j_service - INFO - [neo4j_service.py:100] -    Feedback Type: positive
+2025-08-03 15:13:46,079 - neo4j_service - INFO - [neo4j_service.py:101] -    User Comment: its working
+2025-08-03 15:13:46,079 - neo4j_service - INFO - [neo4j_service.py:102] -    Rating Stars: 5/5
+2025-08-03 15:13:46,092 - neo4j_service - INFO - [neo4j_service.py:133] -    Node ID: 7
+2025-08-03 15:13:46,108 - neo4j_service - INFO - [neo4j_service.py:73] -    Database: reviews
+2025-08-03 15:13:46,122 - Flask_api - INFO - [Flask_api.py:182] -    Stored in database: reviews
+2025-08-03 15:13:46,122 - Flask_api - INFO - [Flask_api.py:183] -    Feedback Type: positive
+2025-08-03 15:13:46,123 - Flask_api - INFO - [Flask_api.py:184] -    Rating: 5/5 stars
+2025-08-03 15:13:46,127 - Flask_api - INFO - [Flask_api.py:186] - ================================================================================
+2025-08-03 15:13:46,128 - werkzeug - INFO - [_internal.py:97] - 127.0.0.1 - - [03/Aug/2025 15:13:46] "POST /api/feedback HTTP/1.1" 200 -
+2025-08-03 16:01:11,245 - werkzeug - INFO - [_internal.py:97] - 127.0.0.1 - - [03/Aug/2025 16:01:11] "OPTIONS /api/feedback HTTP/1.1" 200 -
+2025-08-03 16:01:11,502 - Flask_api - INFO - [Flask_api.py:118] - ================================================================================
+2025-08-03 16:01:11,594 - Flask_api - INFO - [Flask_api.py:125] - ================================================================================
+2025-08-03 16:01:11,597 - Flask_api - INFO - [Flask_api.py:131] -    Host: localhost:8000
+2025-08-03 16:01:11,597 - Flask_api - INFO - [Flask_api.py:131] -    Connection: keep-alive
+2025-08-03 16:01:11,597 - Flask_api - INFO - [Flask_api.py:131] -    Content-Length: 845
+2025-08-03 16:01:11,598 - Flask_api - INFO - [Flask_api.py:131] -    Sec-Ch-Ua-Platform: "Windows"
+2025-08-03 16:01:11,598 - Flask_api - INFO - [Flask_api.py:131] -    User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Edg/138.0.0.0
+2025-08-03 16:01:11,599 - Flask_api - INFO - [Flask_api.py:131] -    Accept: application/json
+2025-08-03 16:01:11,599 - Flask_api - INFO - [Flask_api.py:131] -    Sec-Ch-Ua: "Not)A;Brand";v="8", "Chromium";v="138", "Microsoft Edge";v="138"
+2025-08-03 16:01:11,599 - Flask_api - INFO - [Flask_api.py:131] -    Content-Type: application/json; charset=utf-8
+2025-08-03 16:01:11,599 - Flask_api - INFO - [Flask_api.py:131] -    Sec-Ch-Ua-Mobile: ?0
+2025-08-03 16:01:11,599 - Flask_api - INFO - [Flask_api.py:131] -    Origin: http://localhost:64439
+2025-08-03 16:01:11,600 - Flask_api - INFO - [Flask_api.py:131] -    Sec-Fetch-Site: same-site
+2025-08-03 16:01:11,600 - Flask_api - INFO - [Flask_api.py:131] -    Sec-Fetch-Mode: cors
+2025-08-03 16:01:11,600 - Flask_api - INFO - [Flask_api.py:131] -    Sec-Fetch-Dest: empty
+2025-08-03 16:01:11,602 - Flask_api - INFO - [Flask_api.py:131] -    Referer: http://localhost:64439/
+2025-08-03 16:01:11,602 - Flask_api - INFO - [Flask_api.py:131] -    Accept-Encoding: gzip, deflate, br, zstd
+2025-08-03 16:01:11,602 - Flask_api - INFO - [Flask_api.py:131] -    Accept-Language: en-US,en;q=0.9
+2025-08-03 16:01:11,689 - Flask_api - INFO - [Flask_api.py:147] -    User Query: water quality barcelona...
+2025-08-03 16:01:11,694 - Flask_api - INFO - [Flask_api.py:149] -    Feedback Type: negative
+2025-08-03 16:01:11,694 - Flask_api - INFO - [Flask_api.py:150] -    User Comment: the data is not cleaned and query is not working that well
+2025-08-03 16:01:11,694 - Flask_api - INFO - [Flask_api.py:151] -    Rating Stars: 3/5
+2025-08-03 16:01:11,768 - Flask_api - INFO - [Flask_api.py:175] -    Database: reviews
+2025-08-03 16:01:11,771 - Flask_api - INFO - [Flask_api.py:176] -    URI: bolt://localhost:7687
+2025-08-03 16:01:11,778 - neo4j_service - INFO - [neo4j_service.py:63] -    Target Database: reviews
+2025-08-03 16:01:11,778 - neo4j_service - INFO - [neo4j_service.py:64] -    Feedback Type: negative
+2025-08-03 16:01:11,778 - neo4j_service - INFO - [neo4j_service.py:65] -    Rating: 3/5 stars
+2025-08-03 16:01:11,791 - neo4j_service - INFO - [neo4j_service.py:98] -    User Query: water quality barcelona...
+2025-08-03 16:01:11,796 - neo4j_service - INFO - [neo4j_service.py:100] -    Feedback Type: negative
+2025-08-03 16:01:11,796 - neo4j_service - INFO - [neo4j_service.py:101] -    User Comment: the data is not cleaned and query is not working that well
+2025-08-03 16:01:11,797 - neo4j_service - INFO - [neo4j_service.py:102] -    Rating Stars: 3/5
+2025-08-03 16:01:12,015 - neo4j_service - INFO - [neo4j_service.py:133] -    Node ID: 8
+2025-08-03 16:01:12,058 - neo4j_service - INFO - [neo4j_service.py:73] -    Database: reviews
+2025-08-03 16:01:12,070 - Flask_api - INFO - [Flask_api.py:182] -    Stored in database: reviews
+2025-08-03 16:01:12,070 - Flask_api - INFO - [Flask_api.py:183] -    Feedback Type: negative
+2025-08-03 16:01:12,070 - Flask_api - INFO - [Flask_api.py:184] -    Rating: 3/5 stars
+2025-08-03 16:01:12,075 - Flask_api - INFO - [Flask_api.py:186] - ================================================================================
+2025-08-03 16:01:12,076 - werkzeug - INFO - [_internal.py:97] - 127.0.0.1 - - [03/Aug/2025 16:01:12] "POST /api/feedback HTTP/1.1" 200 -
+2025-08-03 16:01:12,189 - Flask_api - INFO - [Flask_api.py:118] - ================================================================================
+2025-08-03 16:01:12,215 - Flask_api - INFO - [Flask_api.py:125] - ================================================================================
+2025-08-03 16:01:12,219 - Flask_api - INFO - [Flask_api.py:131] -    Host: localhost:8000
+2025-08-03 16:01:12,219 - Flask_api - INFO - [Flask_api.py:131] -    Connection: keep-alive
+2025-08-03 16:01:12,220 - Flask_api - INFO - [Flask_api.py:131] -    Content-Length: 908
+2025-08-03 16:01:12,220 - Flask_api - INFO - [Flask_api.py:131] -    Sec-Ch-Ua-Platform: "Windows"
+2025-08-03 16:01:12,220 - Flask_api - INFO - [Flask_api.py:131] -    User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Edg/138.0.0.0
+2025-08-03 16:01:12,220 - Flask_api - INFO - [Flask_api.py:131] -    Accept: application/json
+2025-08-03 16:01:12,221 - Flask_api - INFO - [Flask_api.py:131] -    Sec-Ch-Ua: "Not)A;Brand";v="8", "Chromium";v="138", "Microsoft Edge";v="138"
+2025-08-03 16:01:12,221 - Flask_api - INFO - [Flask_api.py:131] -    Content-Type: application/json; charset=utf-8
+2025-08-03 16:01:12,221 - Flask_api - INFO - [Flask_api.py:131] -    Sec-Ch-Ua-Mobile: ?0
+2025-08-03 16:01:12,222 - Flask_api - INFO - [Flask_api.py:131] -    Origin: http://localhost:64439
+2025-08-03 16:01:12,222 - Flask_api - INFO - [Flask_api.py:131] -    Sec-Fetch-Site: same-site
+2025-08-03 16:01:12,222 - Flask_api - INFO - [Flask_api.py:131] -    Sec-Fetch-Mode: cors
+2025-08-03 16:01:12,223 - Flask_api - INFO - [Flask_api.py:131] -    Sec-Fetch-Dest: empty
+2025-08-03 16:01:12,223 - Flask_api - INFO - [Flask_api.py:131] -    Referer: http://localhost:64439/
+2025-08-03 16:01:12,223 - Flask_api - INFO - [Flask_api.py:131] -    Accept-Encoding: gzip, deflate, br, zstd
+2025-08-03 16:01:12,224 - Flask_api - INFO - [Flask_api.py:131] -    Accept-Language: en-US,en;q=0.9
+2025-08-03 16:01:12,246 - Flask_api - INFO - [Flask_api.py:147] -    User Query: water quality barcelona...
+2025-08-03 16:01:12,250 - Flask_api - INFO - [Flask_api.py:149] -    Feedback Type: negative
+2025-08-03 16:01:12,250 - Flask_api - INFO - [Flask_api.py:150] -    User Comment: the data is not cleaned and query is not working that well
+2025-08-03 16:01:12,250 - Flask_api - INFO - [Flask_api.py:151] -    Rating Stars: 3/5
+2025-08-03 16:01:12,266 - Flask_api - INFO - [Flask_api.py:175] -    Database: reviews
+2025-08-03 16:01:12,267 - Flask_api - INFO - [Flask_api.py:176] -    URI: bolt://localhost:7687
+2025-08-03 16:01:12,272 - neo4j_service - INFO - [neo4j_service.py:63] -    Target Database: reviews
+2025-08-03 16:01:12,272 - neo4j_service - INFO - [neo4j_service.py:64] -    Feedback Type: negative
+2025-08-03 16:01:12,272 - neo4j_service - INFO - [neo4j_service.py:65] -    Rating: 3/5 stars
+2025-08-03 16:01:12,284 - neo4j_service - INFO - [neo4j_service.py:98] -    User Query: water quality barcelona...
+2025-08-03 16:01:12,289 - neo4j_service - INFO - [neo4j_service.py:100] -    Feedback Type: negative
+2025-08-03 16:01:12,290 - neo4j_service - INFO - [neo4j_service.py:101] -    User Comment: the data is not cleaned and query is not working that well
+2025-08-03 16:01:12,290 - neo4j_service - INFO - [neo4j_service.py:102] -    Rating Stars: 3/5
+2025-08-03 16:01:12,301 - neo4j_service - INFO - [neo4j_service.py:133] -    Node ID: 9
+2025-08-03 16:01:12,310 - neo4j_service - INFO - [neo4j_service.py:73] -    Database: reviews
+2025-08-03 16:01:12,385 - Flask_api - INFO - [Flask_api.py:182] -    Stored in database: reviews
+2025-08-03 16:01:12,385 - Flask_api - INFO - [Flask_api.py:183] -    Feedback Type: negative
+2025-08-03 16:01:12,386 - Flask_api - INFO - [Flask_api.py:184] -    Rating: 3/5 stars
+2025-08-03 16:01:12,390 - Flask_api - INFO - [Flask_api.py:186] - ================================================================================
+2025-08-03 16:01:12,391 - werkzeug - INFO - [_internal.py:97] - 127.0.0.1 - - [03/Aug/2025 16:01:12] "POST /api/feedback HTTP/1.1" 200 -
+2025-08-04 04:58:07,032 - __main__ - ERROR - [Flask_api.py:45] - Failed to initialize Neo4j service: {code: Neo.ClientError.Security.Unauthorized} {message: The client is unauthorized due to authentication failure.}
+2025-08-04 04:58:07,033 - __main__ - ERROR - [Flask_api.py:351] - Failed to start application: {code: Neo.ClientError.Security.Unauthorized} {message: The client is unauthorized due to authentication failure.}
+2025-08-04 04:58:07,046 - __main__ - ERROR - [Flask_api.py:352] - Traceback (most recent call last):
+  File "C:\Users\g2125bcse18\Documents\Neo4j_Integration\Flask_api.py", line 334, in <module>
+    init_neo4j()
+  File "C:\Users\g2125bcse18\Documents\Neo4j_Integration\Flask_api.py", line 42, in init_neo4j
+    neo4j_service = Neo4jService(neo4j_uri, neo4j_username, neo4j_password, neo4j_database)
+  File "C:\Users\g2125bcse18\Documents\Neo4j_Integration\neo4j_service.py", line 15, in __init__
+    self._verify_connection()
+  File "C:\Users\g2125bcse18\Documents\Neo4j_Integration\neo4j_service.py", line 27, in _verify_connection
+    session.run("RETURN 1")
+  File "C:\Users\g2125bcse18\Documents\Neo4j_Integration\.venv\lib\site-packages\neo4j\_sync\work\session.py", line 308, in run
+    self._connect(self._config.default_access_mode)
+  File "C:\Users\g2125bcse18\Documents\Neo4j_Integration\.venv\lib\site-packages\neo4j\_sync\work\session.py", line 141, in _connect
+    super()._connect(
+  File "C:\Users\g2125bcse18\Documents\Neo4j_Integration\.venv\lib\site-packages\neo4j\_sync\work\workspace.py", line 178, in _connect
+    self._connection = self._pool.acquire(**acquire_kwargs_)
+  File "C:\Users\g2125bcse18\Documents\Neo4j_Integration\.venv\lib\site-packages\neo4j\_sync\io\_pool.py", line 528, in acquire
+    return self._acquire(
+  File "C:\Users\g2125bcse18\Documents\Neo4j_Integration\.venv\lib\site-packages\neo4j\_sync\io\_pool.py", line 315, in _acquire
+    return connection_creator()
+  File "C:\Users\g2125bcse18\Documents\Neo4j_Integration\.venv\lib\site-packages\neo4j\_sync\io\_pool.py", line 167, in connection_creator
+    connection = self.opener(
+  File "C:\Users\g2125bcse18\Documents\Neo4j_Integration\.venv\lib\site-packages\neo4j\_sync\io\_pool.py", line 502, in opener
+    return Bolt.open(
+  File "C:\Users\g2125bcse18\Documents\Neo4j_Integration\.venv\lib\site-packages\neo4j\_sync\io\_bolt.py", line 480, in open
+    connection.hello()
+  File "C:\Users\g2125bcse18\Documents\Neo4j_Integration\.venv\lib\site-packages\neo4j\_sync\io\_bolt5.py", line 575, in hello
+    self.fetch_all()
+  File "C:\Users\g2125bcse18\Documents\Neo4j_Integration\.venv\lib\site-packages\neo4j\_sync\io\_bolt.py", line 840, in fetch_all
+    detail_delta, summary_delta = self.fetch_message()
+  File "C:\Users\g2125bcse18\Documents\Neo4j_Integration\.venv\lib\site-packages\neo4j\_sync\io\_bolt.py", line 826, in fetch_message
+    res = self._process_message(tag, fields)
+  File "C:\Users\g2125bcse18\Documents\Neo4j_Integration\.venv\lib\site-packages\neo4j\_sync\io\_bolt5.py", line 370, in _process_message
+    response.on_failure(summary_metadata or {})
+  File "C:\Users\g2125bcse18\Documents\Neo4j_Integration\.venv\lib\site-packages\neo4j\_sync\io\_common.py", line 283, in on_failure
+    raise Neo4jError.hydrate(**metadata)
+neo4j.exceptions.AuthError: {code: Neo.ClientError.Security.Unauthorized} {message: The client is unauthorized due to authentication failure.}
+
+2025-08-04 04:58:19,526 - __main__ - INFO - [app.py:138] - Initializing Neo4j service...
+2025-08-04 04:58:24,654 - neo4j_service - INFO - [neo4j_service.py:28] - Neo4j connection verified successfully
+2025-08-04 04:58:24,933 - neo4j_service - INFO - [neo4j_service.py:49] - Neo4j constraints and indexes created/verified
+2025-08-04 04:58:24,935 - Flask_api - INFO - [Flask_api.py:43] - Neo4j service initialized successfully
+2025-08-04 04:58:24,935 - __main__ - INFO - [app.py:140] - Neo4j service initialized successfully
+2025-08-04 04:58:24,935 - __main__ - INFO - [app.py:152] - Starting Flask server on 0.0.0.0:8000
+2025-08-04 04:58:24,987 - werkzeug - INFO - [_internal.py:97] - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8000
+ * Running on http://10.160.0.2:8000
+2025-08-04 04:58:24,987 - werkzeug - INFO - [_internal.py:97] - [33mPress CTRL+C to quit[0m
+2025-08-04 04:58:24,989 - werkzeug - INFO - [_internal.py:97] -  * Restarting with stat
+2025-08-04 04:58:25,583 - __main__ - INFO - [app.py:138] - Initializing Neo4j service...
+2025-08-04 04:58:27,678 - neo4j_service - INFO - [neo4j_service.py:28] - Neo4j connection verified successfully
+2025-08-04 04:58:27,706 - neo4j_service - INFO - [neo4j_service.py:49] - Neo4j constraints and indexes created/verified
+2025-08-04 04:58:27,706 - Flask_api - INFO - [Flask_api.py:43] - Neo4j service initialized successfully
+2025-08-04 04:58:27,707 - __main__ - INFO - [app.py:140] - Neo4j service initialized successfully
+2025-08-04 04:58:27,707 - __main__ - INFO - [app.py:152] - Starting Flask server on 0.0.0.0:8000
+2025-08-04 04:58:27,727 - werkzeug - WARNING - [_internal.py:97] -  * Debugger is active!
+2025-08-04 04:58:27,731 - werkzeug - INFO - [_internal.py:97] -  * Debugger PIN: 817-675-111
+2025-08-04 06:58:47,721 - werkzeug - INFO - [_internal.py:97] - 127.0.0.1 - - [04/Aug/2025 06:58:47] "OPTIONS /api/health HTTP/1.1" 200 -
+2025-08-04 06:58:50,173 - werkzeug - INFO - [_internal.py:97] - 127.0.0.1 - - [04/Aug/2025 06:58:50] "GET /api/health HTTP/1.1" 200 -
+2025-08-04 07:20:44,746 - werkzeug - INFO - [_internal.py:97] - 127.0.0.1 - - [04/Aug/2025 07:20:44] "OPTIONS /api/health HTTP/1.1" 200 -
+2025-08-04 07:20:45,053 - werkzeug - INFO - [_internal.py:97] - 127.0.0.1 - - [04/Aug/2025 07:20:45] "GET /api/health HTTP/1.1" 200 -
+2025-08-04 07:37:09,774 - werkzeug - INFO - [_internal.py:97] - 127.0.0.1 - - [04/Aug/2025 07:37:09] "OPTIONS /api/health HTTP/1.1" 200 -
+2025-08-04 07:37:10,038 - werkzeug - INFO - [_internal.py:97] - 127.0.0.1 - - [04/Aug/2025 07:37:10] "GET /api/health HTTP/1.1" 200 -
+2025-08-04 08:07:19,877 - werkzeug - INFO - [_internal.py:97] - 127.0.0.1 - - [04/Aug/2025 08:07:19] "OPTIONS /api/feedback HTTP/1.1" 200 -
+2025-08-04 08:07:20,130 - Flask_api - INFO - [Flask_api.py:118] - ================================================================================
+2025-08-04 08:07:21,019 - Flask_api - INFO - [Flask_api.py:125] - ================================================================================
+2025-08-04 08:07:21,027 - Flask_api - INFO - [Flask_api.py:131] -    Host: localhost:8000
+2025-08-04 08:07:21,028 - Flask_api - INFO - [Flask_api.py:131] -    Connection: keep-alive
+2025-08-04 08:07:21,029 - Flask_api - INFO - [Flask_api.py:131] -    Content-Length: 584
+2025-08-04 08:07:21,029 - Flask_api - INFO - [Flask_api.py:131] -    Sec-Ch-Ua-Platform: "Windows"
+2025-08-04 08:07:21,029 - Flask_api - INFO - [Flask_api.py:131] -    User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Edg/138.0.0.0
+2025-08-04 08:07:21,030 - Flask_api - INFO - [Flask_api.py:131] -    Accept: application/json
+2025-08-04 08:07:21,031 - Flask_api - INFO - [Flask_api.py:131] -    Sec-Ch-Ua: "Not)A;Brand";v="8", "Chromium";v="138", "Microsoft Edge";v="138"
+2025-08-04 08:07:21,031 - Flask_api - INFO - [Flask_api.py:131] -    Content-Type: application/json; charset=utf-8
+2025-08-04 08:07:21,032 - Flask_api - INFO - [Flask_api.py:131] -    Sec-Ch-Ua-Mobile: ?0
+2025-08-04 08:07:21,033 - Flask_api - INFO - [Flask_api.py:131] -    Origin: http://localhost:53720
+2025-08-04 08:07:21,093 - Flask_api - INFO - [Flask_api.py:131] -    Sec-Fetch-Site: same-site
+2025-08-04 08:07:21,093 - Flask_api - INFO - [Flask_api.py:131] -    Sec-Fetch-Mode: cors
+2025-08-04 08:07:21,094 - Flask_api - INFO - [Flask_api.py:131] -    Sec-Fetch-Dest: empty
+2025-08-04 08:07:21,094 - Flask_api - INFO - [Flask_api.py:131] -    Referer: http://localhost:53720/
+2025-08-04 08:07:21,095 - Flask_api - INFO - [Flask_api.py:131] -    Accept-Encoding: gzip, deflate, br, zstd
+2025-08-04 08:07:21,106 - Flask_api - INFO - [Flask_api.py:131] -    Accept-Language: en-US,en;q=0.9
+2025-08-04 08:07:21,467 - Flask_api - INFO - [Flask_api.py:147] -    User Query: hello
+...
+2025-08-04 08:07:21,549 - Flask_api - INFO - [Flask_api.py:149] -    Feedback Type: negative
+2025-08-04 08:07:21,549 - Flask_api - INFO - [Flask_api.py:150] -    User Comment: Fetching from the graph DB is done but content not shown as llm is integrated but not understanding the data properly
+2025-08-04 08:07:21,549 - Flask_api - INFO - [Flask_api.py:151] -    Rating Stars: 3/5
+2025-08-04 08:07:21,717 - Flask_api - INFO - [Flask_api.py:175] -    Database: reviews
+2025-08-04 08:07:21,718 - Flask_api - INFO - [Flask_api.py:176] -    URI: bolt://localhost:7687
+2025-08-04 08:07:21,799 - neo4j_service - INFO - [neo4j_service.py:63] -    Target Database: reviews
+2025-08-04 08:07:21,800 - neo4j_service - INFO - [neo4j_service.py:64] -    Feedback Type: negative
+2025-08-04 08:07:21,801 - neo4j_service - INFO - [neo4j_service.py:65] -    Rating: 3/5 stars
+2025-08-04 08:07:23,850 - neo4j_service - INFO - [neo4j_service.py:98] -    User Query: hello
+...
+2025-08-04 08:07:23,866 - neo4j_service - INFO - [neo4j_service.py:100] -    Feedback Type: negative
+2025-08-04 08:07:23,866 - neo4j_service - INFO - [neo4j_service.py:101] -    User Comment: Fetching from the graph DB is done but content not shown as llm is integrated but not understanding the data properly
+2025-08-04 08:07:23,867 - neo4j_service - INFO - [neo4j_service.py:102] -    Rating Stars: 3/5
+2025-08-04 08:07:24,671 - neo4j_service - INFO - [neo4j_service.py:133] -    Node ID: 10
+2025-08-04 08:07:24,909 - neo4j_service - INFO - [neo4j_service.py:73] -    Database: reviews
+2025-08-04 08:07:24,935 - Flask_api - INFO - [Flask_api.py:182] -    Stored in database: reviews
+2025-08-04 08:07:24,936 - Flask_api - INFO - [Flask_api.py:183] -    Feedback Type: negative
+2025-08-04 08:07:24,936 - Flask_api - INFO - [Flask_api.py:184] -    Rating: 3/5 stars
+2025-08-04 08:07:24,941 - Flask_api - INFO - [Flask_api.py:186] - ================================================================================
+2025-08-04 08:07:24,943 - werkzeug - INFO - [_internal.py:97] - 127.0.0.1 - - [04/Aug/2025 08:07:24] "POST /api/feedback HTTP/1.1" 200 -
+2025-08-04 08:32:59,036 - werkzeug - INFO - [_internal.py:97] - 127.0.0.1 - - [04/Aug/2025 08:32:59] "OPTIONS /api/health HTTP/1.1" 200 -
+2025-08-04 08:32:59,275 - werkzeug - INFO - [_internal.py:97] - 127.0.0.1 - - [04/Aug/2025 08:32:59] "GET /api/health HTTP/1.1" 200 -
+2025-08-05 05:32:13,630 - __main__ - INFO - [app.py:138] - Initializing Neo4j service...
+2025-08-05 05:32:17,683 - neo4j_service - ERROR - [neo4j_service.py:30] - Neo4j connection failed: Couldn't connect to localhost:7687 (resolved to ()):
+Failed to establish connection to ResolvedIPv6Address(('::1', 7687, 0, 0)) (reason [WinError 10061] No connection could be made because the target machine actively refused it)
+Failed to establish connection to ResolvedIPv4Address(('127.0.0.1', 7687)) (reason [WinError 10061] No connection could be made because the target machine actively refused it)
+2025-08-05 05:32:17,683 - Flask_api - ERROR - [Flask_api.py:45] - Failed to initialize Neo4j service: Couldn't connect to localhost:7687 (resolved to ()):
+Failed to establish connection to ResolvedIPv6Address(('::1', 7687, 0, 0)) (reason [WinError 10061] No connection could be made because the target machine actively refused it)
+Failed to establish connection to ResolvedIPv4Address(('127.0.0.1', 7687)) (reason [WinError 10061] No connection could be made because the target machine actively refused it)
+2025-08-05 05:32:17,683 - __main__ - ERROR - [app.py:159] - Application startup failed: Couldn't connect to localhost:7687 (resolved to ()):
+Failed to establish connection to ResolvedIPv6Address(('::1', 7687, 0, 0)) (reason [WinError 10061] No connection could be made because the target machine actively refused it)
+Failed to establish connection to ResolvedIPv4Address(('127.0.0.1', 7687)) (reason [WinError 10061] No connection could be made because the target machine actively refused it)
+2025-08-05 05:32:17,685 - __main__ - INFO - [app.py:169] - Application cleanup completed
+2025-08-05 05:33:00,145 - __main__ - INFO - [app.py:138] - Initializing Neo4j service...
+2025-08-05 05:33:04,211 - neo4j_service - ERROR - [neo4j_service.py:30] - Neo4j connection failed: Couldn't connect to localhost:7687 (resolved to ()):
+Failed to establish connection to ResolvedIPv6Address(('::1', 7687, 0, 0)) (reason [WinError 10061] No connection could be made because the target machine actively refused it)
+Failed to establish connection to ResolvedIPv4Address(('127.0.0.1', 7687)) (reason [WinError 10061] No connection could be made because the target machine actively refused it)
+2025-08-05 05:33:04,211 - Flask_api - ERROR - [Flask_api.py:45] - Failed to initialize Neo4j service: Couldn't connect to localhost:7687 (resolved to ()):
+Failed to establish connection to ResolvedIPv6Address(('::1', 7687, 0, 0)) (reason [WinError 10061] No connection could be made because the target machine actively refused it)
+Failed to establish connection to ResolvedIPv4Address(('127.0.0.1', 7687)) (reason [WinError 10061] No connection could be made because the target machine actively refused it)
+2025-08-05 05:33:04,211 - __main__ - ERROR - [app.py:159] - Application startup failed: Couldn't connect to localhost:7687 (resolved to ()):
+Failed to establish connection to ResolvedIPv6Address(('::1', 7687, 0, 0)) (reason [WinError 10061] No connection could be made because the target machine actively refused it)
+Failed to establish connection to ResolvedIPv4Address(('127.0.0.1', 7687)) (reason [WinError 10061] No connection could be made because the target machine actively refused it)
+2025-08-05 05:33:04,212 - __main__ - INFO - [app.py:169] - Application cleanup completed
+2025-08-05 05:33:59,967 - __main__ - INFO - [app.py:138] - Initializing Neo4j service...
+2025-08-05 05:34:04,020 - neo4j_service - ERROR - [neo4j_service.py:30] - Neo4j connection failed: Couldn't connect to localhost:7687 (resolved to ()):
+Failed to establish connection to ResolvedIPv6Address(('::1', 7687, 0, 0)) (reason [WinError 10061] No connection could be made because the target machine actively refused it)
+Failed to establish connection to ResolvedIPv4Address(('127.0.0.1', 7687)) (reason [WinError 10061] No connection could be made because the target machine actively refused it)
+2025-08-05 05:34:04,020 - Flask_api - ERROR - [Flask_api.py:45] - Failed to initialize Neo4j service: Couldn't connect to localhost:7687 (resolved to ()):
+Failed to establish connection to ResolvedIPv6Address(('::1', 7687, 0, 0)) (reason [WinError 10061] No connection could be made because the target machine actively refused it)
+Failed to establish connection to ResolvedIPv4Address(('127.0.0.1', 7687)) (reason [WinError 10061] No connection could be made because the target machine actively refused it)
+2025-08-05 05:34:04,020 - __main__ - ERROR - [app.py:159] - Application startup failed: Couldn't connect to localhost:7687 (resolved to ()):
+Failed to establish connection to ResolvedIPv6Address(('::1', 7687, 0, 0)) (reason [WinError 10061] No connection could be made because the target machine actively refused it)
+Failed to establish connection to ResolvedIPv4Address(('127.0.0.1', 7687)) (reason [WinError 10061] No connection could be made because the target machine actively refused it)
+2025-08-05 05:34:04,022 - __main__ - INFO - [app.py:169] - Application cleanup completed
+2025-08-05 05:40:30,783 - __main__ - INFO - [app.py:138] - Initializing Neo4j service...
+2025-08-05 05:40:35,848 - neo4j_service - INFO - [neo4j_service.py:28] - Neo4j connection verified successfully
+2025-08-05 05:40:36,089 - neo4j_service - INFO - [neo4j_service.py:49] - Neo4j constraints and indexes created/verified
+2025-08-05 05:40:36,089 - Flask_api - INFO - [Flask_api.py:43] - Neo4j service initialized successfully
+2025-08-05 05:40:36,090 - __main__ - INFO - [app.py:140] - Neo4j service initialized successfully
+2025-08-05 05:40:36,090 - __main__ - INFO - [app.py:152] - Starting Flask server on 0.0.0.0:8000
+2025-08-05 05:40:36,127 - werkzeug - INFO - [_internal.py:97] - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8000
+ * Running on http://10.160.0.2:8000
+2025-08-05 05:40:36,128 - werkzeug - INFO - [_internal.py:97] - [33mPress CTRL+C to quit[0m
+2025-08-05 05:40:36,130 - werkzeug - INFO - [_internal.py:97] -  * Restarting with stat
+2025-08-05 05:40:36,688 - __main__ - INFO - [app.py:138] - Initializing Neo4j service...
+2025-08-05 05:40:38,737 - neo4j_service - INFO - [neo4j_service.py:28] - Neo4j connection verified successfully
+2025-08-05 05:40:38,758 - neo4j_service - INFO - [neo4j_service.py:49] - Neo4j constraints and indexes created/verified
+2025-08-05 05:40:38,759 - Flask_api - INFO - [Flask_api.py:43] - Neo4j service initialized successfully
+2025-08-05 05:40:38,759 - __main__ - INFO - [app.py:140] - Neo4j service initialized successfully
+2025-08-05 05:40:38,760 - __main__ - INFO - [app.py:152] - Starting Flask server on 0.0.0.0:8000
+2025-08-05 05:40:38,780 - werkzeug - WARNING - [_internal.py:97] -  * Debugger is active!
+2025-08-05 05:40:38,784 - werkzeug - INFO - [_internal.py:97] -  * Debugger PIN: 817-675-111
+2025-08-05 10:32:08,929 - werkzeug - INFO - [_internal.py:97] - 127.0.0.1 - - [05/Aug/2025 10:32:08] "OPTIONS /api/feedback HTTP/1.1" 200 -
+2025-08-05 10:32:09,144 - Flask_api - INFO - [Flask_api.py:118] - ================================================================================
+2025-08-05 10:32:09,463 - Flask_api - INFO - [Flask_api.py:125] - ================================================================================
+2025-08-05 10:32:09,468 - Flask_api - INFO - [Flask_api.py:131] -    Host: localhost:8000
+2025-08-05 10:32:09,468 - Flask_api - INFO - [Flask_api.py:131] -    Connection: keep-alive
+2025-08-05 10:32:09,468 - Flask_api - INFO - [Flask_api.py:131] -    Content-Length: 1769
+2025-08-05 10:32:09,469 - Flask_api - INFO - [Flask_api.py:131] -    Sec-Ch-Ua-Platform: "Windows"
+2025-08-05 10:32:09,469 - Flask_api - INFO - [Flask_api.py:131] -    User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Edg/138.0.0.0
+2025-08-05 10:32:09,469 - Flask_api - INFO - [Flask_api.py:131] -    Accept: application/json
+2025-08-05 10:32:09,470 - Flask_api - INFO - [Flask_api.py:131] -    Sec-Ch-Ua: "Not)A;Brand";v="8", "Chromium";v="138", "Microsoft Edge";v="138"
+2025-08-05 10:32:09,470 - Flask_api - INFO - [Flask_api.py:131] -    Content-Type: application/json; charset=utf-8
+2025-08-05 10:32:09,470 - Flask_api - INFO - [Flask_api.py:131] -    Sec-Ch-Ua-Mobile: ?0
+2025-08-05 10:32:09,470 - Flask_api - INFO - [Flask_api.py:131] -    Origin: http://localhost:63608
+2025-08-05 10:32:09,471 - Flask_api - INFO - [Flask_api.py:131] -    Sec-Fetch-Site: same-site
+2025-08-05 10:32:09,471 - Flask_api - INFO - [Flask_api.py:131] -    Sec-Fetch-Mode: cors
+2025-08-05 10:32:09,471 - Flask_api - INFO - [Flask_api.py:131] -    Sec-Fetch-Dest: empty
+2025-08-05 10:32:09,472 - Flask_api - INFO - [Flask_api.py:131] -    Referer: http://localhost:63608/
+2025-08-05 10:32:09,472 - Flask_api - INFO - [Flask_api.py:131] -    Accept-Encoding: gzip, deflate, br, zstd
+2025-08-05 10:32:09,472 - Flask_api - INFO - [Flask_api.py:131] -    Accept-Language: en-US,en;q=0.9
+2025-08-05 10:32:09,577 - Flask_api - INFO - [Flask_api.py:147] -    User Query: environmental policies madrid
+...
+2025-08-05 10:32:09,586 - Flask_api - INFO - [Flask_api.py:149] -    Feedback Type: positive
+2025-08-05 10:32:09,586 - Flask_api - INFO - [Flask_api.py:150] -    User Comment: 
+2025-08-05 10:32:09,587 - Flask_api - INFO - [Flask_api.py:151] -    Rating Stars: 5/5
+2025-08-05 10:32:09,600 - Flask_api - INFO - [Flask_api.py:175] -    Database: reviews
+2025-08-05 10:32:09,600 - Flask_api - INFO - [Flask_api.py:176] -    URI: bolt://localhost:7687
+2025-08-05 10:32:09,610 - neo4j_service - INFO - [neo4j_service.py:63] -    Target Database: reviews
+2025-08-05 10:32:09,610 - neo4j_service - INFO - [neo4j_service.py:64] -    Feedback Type: positive
+2025-08-05 10:32:09,611 - neo4j_service - INFO - [neo4j_service.py:65] -    Rating: 5/5 stars
+2025-08-05 10:32:11,654 - neo4j_service - INFO - [neo4j_service.py:98] -    User Query: environmental policies madrid
+...
+2025-08-05 10:32:11,659 - neo4j_service - INFO - [neo4j_service.py:100] -    Feedback Type: positive
+2025-08-05 10:32:11,660 - neo4j_service - INFO - [neo4j_service.py:101] -    User Comment: 
+2025-08-05 10:32:11,660 - neo4j_service - INFO - [neo4j_service.py:102] -    Rating Stars: 5/5
+2025-08-05 10:32:12,003 - neo4j_service - INFO - [neo4j_service.py:133] -    Node ID: 11
+2025-08-05 10:32:12,022 - neo4j_service - INFO - [neo4j_service.py:73] -    Database: reviews
+2025-08-05 10:32:12,109 - Flask_api - INFO - [Flask_api.py:182] -    Stored in database: reviews
+2025-08-05 10:32:12,110 - Flask_api - INFO - [Flask_api.py:183] -    Feedback Type: positive
+2025-08-05 10:32:12,110 - Flask_api - INFO - [Flask_api.py:184] -    Rating: 5/5 stars
+2025-08-05 10:32:12,114 - Flask_api - INFO - [Flask_api.py:186] - ================================================================================
+2025-08-05 10:32:12,115 - werkzeug - INFO - [_internal.py:97] - 127.0.0.1 - - [05/Aug/2025 10:32:12] "POST /api/feedback HTTP/1.1" 200 -
+2025-08-17 14:32:54,278 - __main__ - INFO - [app.py:138] - Initializing Neo4j service...
+2025-08-17 14:32:58,299 - neo4j_service - ERROR - [neo4j_service.py:30] - Neo4j connection failed: Couldn't connect to localhost:7687 (resolved to ()):
+Failed to establish connection to ResolvedIPv6Address(('::1', 7687, 0, 0)) (reason [WinError 10061] No connection could be made because the target machine actively refused it)
+Failed to establish connection to ResolvedIPv4Address(('127.0.0.1', 7687)) (reason [WinError 10061] No connection could be made because the target machine actively refused it)
+2025-08-17 14:32:58,299 - Flask_api - ERROR - [Flask_api.py:45] - Failed to initialize Neo4j service: Couldn't connect to localhost:7687 (resolved to ()):
+Failed to establish connection to ResolvedIPv6Address(('::1', 7687, 0, 0)) (reason [WinError 10061] No connection could be made because the target machine actively refused it)
+Failed to establish connection to ResolvedIPv4Address(('127.0.0.1', 7687)) (reason [WinError 10061] No connection could be made because the target machine actively refused it)
+2025-08-17 14:32:58,299 - __main__ - ERROR - [app.py:159] - Application startup failed: Couldn't connect to localhost:7687 (resolved to ()):
+Failed to establish connection to ResolvedIPv6Address(('::1', 7687, 0, 0)) (reason [WinError 10061] No connection could be made because the target machine actively refused it)
+Failed to establish connection to ResolvedIPv4Address(('127.0.0.1', 7687)) (reason [WinError 10061] No connection could be made because the target machine actively refused it)
+2025-08-17 14:32:58,301 - __main__ - INFO - [app.py:169] - Application cleanup completed
+2025-08-17 14:34:07,714 - __main__ - INFO - [app.py:138] - Initializing Neo4j service...
+2025-08-17 14:34:13,449 - neo4j_service - INFO - [neo4j_service.py:28] - Neo4j connection verified successfully
+2025-08-17 14:34:13,734 - neo4j_service - INFO - [neo4j_service.py:49] - Neo4j constraints and indexes created/verified
+2025-08-17 14:34:13,734 - Flask_api - INFO - [Flask_api.py:43] - Neo4j service initialized successfully
+2025-08-17 14:34:13,734 - __main__ - INFO - [app.py:140] - Neo4j service initialized successfully
+2025-08-17 14:34:13,734 - __main__ - INFO - [app.py:152] - Starting Flask server on 0.0.0.0:8000
+2025-08-17 14:34:13,770 - werkzeug - INFO - [_internal.py:97] - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8000
+ * Running on http://10.160.0.2:8000
+2025-08-17 14:34:13,770 - werkzeug - INFO - [_internal.py:97] - [33mPress CTRL+C to quit[0m
+2025-08-17 14:34:13,773 - werkzeug - INFO - [_internal.py:97] -  * Restarting with stat
+2025-08-17 14:34:14,357 - __main__ - INFO - [app.py:138] - Initializing Neo4j service...
+2025-08-17 14:34:16,461 - neo4j_service - INFO - [neo4j_service.py:28] - Neo4j connection verified successfully
+2025-08-17 14:34:16,493 - neo4j_service - INFO - [neo4j_service.py:49] - Neo4j constraints and indexes created/verified
+2025-08-17 14:34:16,493 - Flask_api - INFO - [Flask_api.py:43] - Neo4j service initialized successfully
+2025-08-17 14:34:16,494 - __main__ - INFO - [app.py:140] - Neo4j service initialized successfully
+2025-08-17 14:34:16,494 - __main__ - INFO - [app.py:152] - Starting Flask server on 0.0.0.0:8000
+2025-08-17 14:34:16,516 - werkzeug - WARNING - [_internal.py:97] -  * Debugger is active!
+2025-08-17 14:34:16,518 - werkzeug - INFO - [_internal.py:97] -  * Debugger PIN: 817-675-111
+2025-08-18 03:28:23,355 - __main__ - INFO - [app.py:138] - Initializing Neo4j service...
+2025-08-18 03:28:27,419 - neo4j_service - ERROR - [neo4j_service.py:30] - Neo4j connection failed: Couldn't connect to localhost:7687 (resolved to ()):
+Failed to establish connection to ResolvedIPv6Address(('::1', 7687, 0, 0)) (reason [WinError 10061] No connection could be made because the target machine actively refused it)
+Failed to establish connection to ResolvedIPv4Address(('127.0.0.1', 7687)) (reason [WinError 10061] No connection could be made because the target machine actively refused it)
+2025-08-18 03:28:27,420 - Flask_api - ERROR - [Flask_api.py:45] - Failed to initialize Neo4j service: Couldn't connect to localhost:7687 (resolved to ()):
+Failed to establish connection to ResolvedIPv6Address(('::1', 7687, 0, 0)) (reason [WinError 10061] No connection could be made because the target machine actively refused it)
+Failed to establish connection to ResolvedIPv4Address(('127.0.0.1', 7687)) (reason [WinError 10061] No connection could be made because the target machine actively refused it)
+2025-08-18 03:28:27,420 - __main__ - ERROR - [app.py:159] - Application startup failed: Couldn't connect to localhost:7687 (resolved to ()):
+Failed to establish connection to ResolvedIPv6Address(('::1', 7687, 0, 0)) (reason [WinError 10061] No connection could be made because the target machine actively refused it)
+Failed to establish connection to ResolvedIPv4Address(('127.0.0.1', 7687)) (reason [WinError 10061] No connection could be made because the target machine actively refused it)
+2025-08-18 03:28:27,421 - __main__ - INFO - [app.py:169] - Application cleanup completed
+2025-08-18 04:19:18,045 - __main__ - INFO - [app.py:138] - Initializing Neo4j service...
+2025-08-18 04:19:20,754 - neo4j_service - INFO - [neo4j_service.py:28] - Neo4j connection verified successfully
+2025-08-18 04:19:20,905 - neo4j_service - INFO - [neo4j_service.py:49] - Neo4j constraints and indexes created/verified
+2025-08-18 04:19:20,906 - Flask_api - INFO - [Flask_api.py:43] - Neo4j service initialized successfully
+2025-08-18 04:19:20,906 - __main__ - INFO - [app.py:140] - Neo4j service initialized successfully
+2025-08-18 04:19:20,906 - __main__ - INFO - [app.py:152] - Starting Flask server on 0.0.0.0:8000
+2025-08-18 04:19:20,948 - werkzeug - INFO - [_internal.py:97] - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8000
+ * Running on http://10.160.0.2:8000
+2025-08-18 04:19:20,948 - werkzeug - INFO - [_internal.py:97] - [33mPress CTRL+C to quit[0m
+2025-08-18 04:19:20,951 - werkzeug - INFO - [_internal.py:97] -  * Restarting with stat
+2025-08-18 04:19:21,556 - __main__ - INFO - [app.py:138] - Initializing Neo4j service...
+2025-08-18 04:19:23,612 - neo4j_service - INFO - [neo4j_service.py:28] - Neo4j connection verified successfully
+2025-08-18 04:19:23,634 - neo4j_service - INFO - [neo4j_service.py:49] - Neo4j constraints and indexes created/verified
+2025-08-18 04:19:23,635 - Flask_api - INFO - [Flask_api.py:43] - Neo4j service initialized successfully
+2025-08-18 04:19:23,635 - __main__ - INFO - [app.py:140] - Neo4j service initialized successfully
+2025-08-18 04:19:23,635 - __main__ - INFO - [app.py:152] - Starting Flask server on 0.0.0.0:8000
+2025-08-18 04:19:23,657 - werkzeug - WARNING - [_internal.py:97] -  * Debugger is active!
+2025-08-18 04:19:23,660 - werkzeug - INFO - [_internal.py:97] -  * Debugger PIN: 817-675-111
+2025-08-18 15:10:31,997 - Flask_api - INFO - [Flask_api.py:329] - Neo4j service connection closed
+2025-08-18 15:10:31,998 - __main__ - INFO - [app.py:169] - Application cleanup completed
+2025-08-18 15:10:31,998 - Flask_api - INFO - [Flask_api.py:329] - Neo4j service connection closed
+2025-08-18 15:10:32,101 - Flask_api - INFO - [Flask_api.py:329] - Neo4j service connection closed
+2025-08-18 15:10:32,101 - __main__ - INFO - [app.py:169] - Application cleanup completed
+2025-08-18 15:10:32,102 - Flask_api - INFO - [Flask_api.py:329] - Neo4j service connection closed
